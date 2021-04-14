@@ -4,8 +4,8 @@
 
 - <details>
   	<summary>Вопросы по анимации</summary>
-  	1. 
-  	2. 
+  	1. <a href="animations/README.md#transition">How do you define transition between two states in Angular?</a> <br/>
+  	2. <a href="animations/README.md#wildcard">How do you define a wildcard state?</a>
   </details>
 - Вопросы по архитектуре
 - Вопросы по API
