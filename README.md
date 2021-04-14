@@ -4,8 +4,9 @@
 
 - <details>
   	<summary>Вопросы по анимации</summary>
-  	1. <a href="animations/README.md#transition">How do you define transition between two states in Angular?</a> <br/>
-  	2. <a href="animations/README.md#wildcard">How do you define a wildcard state?</a>
+  	1. <a href="animations/animations.md#transition">Что такое переход между двумя состояниями в Angular?</a> <br/>
+  	2. <a href="animations/animations.md#wildcard">Что такое состояние wildcard?</a> <br/>
+  	3. <a href="animations/animations.md#trigger">Что такое триггер анимации?</a>
   </details>
 - Вопросы по архитектуре
 - Вопросы по API
