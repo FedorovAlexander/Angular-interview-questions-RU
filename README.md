@@ -4,11 +4,18 @@
 
 - <details>
   	<summary>Вопросы по анимации</summary>
-  	1. <a href="animations/animations.md#transition">Что такое переход между двумя состояниями в Angular?</a> <br/>
+  	1. <a href="animations/animations.md#transition">Как определяется переход между двумя состояниями в Angular?</a> <br/>
   	2. <a href="animations/animations.md#wildcard">Что такое состояние wildcard?</a> <br/>
   	3. <a href="animations/animations.md#trigger">Что такое триггер анимации?</a>
   </details>
-- Вопросы по архитектуре
+- <details>
+  	<summary>Вопросы по архитектуре</summary>
+  	1. <a href="architecture/architecture.md#ngrx-store">What is a good use case for ngrx/store?</a> <br/>
+  	2. <a href="architecture/architecture.md#ngrx-entity">What is a good use case for ngrx/entity?</a> <br/>
+  	3. <a href="architecture/architecture.md#race-condition">Can you talk about a bug related to a race condition, how to solve it and how to test it?</a> <br/>
+  	4. <a href="architecture/architecture.md#smart-dumb">What is the difference between a smart/container component and dumb/presentational component? What is a good use case example? What are the advantages?</a>
+  </details>
+
 - Вопросы по API
 - Вопросы по шаблонам (template)
 - Вопросы по компонентам
