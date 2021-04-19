@@ -11,9 +11,8 @@
 - <details>
   	<summary>Вопросы по архитектуре</summary>
   	1. <a href="architecture/architecture.md#ngrx-store">Приведите хороший пример когда нужно использовать ngrx/store?</a> <br/>
-  	2. <a href="architecture/architecture.md#ngrx-entity">Приведите хороший пример когда нужно использовать ngrx/entity?</a> <br/>
-  	3. <a href="architecture/architecture.md#race-condition">Can you talk about a bug related to a race condition, how to solve it and how to test it?</a> <br/>
-  	4. <a href="architecture/architecture.md#smart-dumb">What is the difference between a smart/container component and dumb/presentational component? What is a good use case example? What are the advantages?</a>
+  	2. <a href="architecture/architecture.md#race-condition">Что такое "race condition" и какие баги могут быть связаны с этим? Как с ними справиться?</a> <br/>
+  	3. <a href="architecture/architecture.md#smart-dumb">What is the difference between a smart/container component and dumb/presentational component? What is a good use case example? What are the advantages?</a>
   </details>
 
 - Вопросы по API
