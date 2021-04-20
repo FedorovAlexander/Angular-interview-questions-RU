@@ -12,7 +12,7 @@
   	<summary>Вопросы по архитектуре</summary>
   	1. <a href="architecture/architecture.md#ngrx-store">Приведите хороший пример когда нужно использовать ngrx/store?</a> <br/>
   	2. <a href="architecture/architecture.md#race-condition">Что такое "race condition" и какие баги могут быть связаны с этим? Как с ними справиться?</a> <br/>
-  	3. <a href="architecture/architecture.md#smart-dumb">What is the difference between a smart/container component and dumb/presentational component? What is a good use case example? What are the advantages?</a>
+  	3. <a href="architecture/architecture.md#smart-dumb">Разница между умным и презентационным компонентом? Приведите пример использования? Назовите преимущества?</a>
   </details>
 
 - Вопросы по API
