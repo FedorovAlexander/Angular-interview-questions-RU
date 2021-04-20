@@ -32,6 +32,12 @@
 - Читаемость кода лучше
 
 <br/>
+
+## <a name="shared"></a>Что такое Shared модуль?
+
+Shared модуль позволяет организовать код. В нем находятся директивы, пайпы и компоненты которые используются в других модулях приложения. Мы импортируем один Shared модуль вместо нескольких импортов директив, пайпов и компонентов.
+
+<br/>
 <br/>
 <br/>
 <br/>
@@ -43,3 +49,4 @@
 1. [https://blog.angular-university.io/angular-2-redux-ngrx-rxjs/](https://blog.angular-university.io/angular-2-redux-ngrx-rxjs/)
 2. [https://blog.nrwl.io/rxjs-advanced-techniques-testing-race-conditions-using-rxjs-marbles-53e7e789fba5](https://blog.nrwl.io/rxjs-advanced-techniques-testing-race-conditions-using-rxjs-marbles-53e7e789fba5)
 3. [https://blog.angular-university.io/angular-2-smart-components-vs-presentation-components-whats-the-difference-when-to-use-each-and-why/](https://blog.angular-university.io/angular-2-smart-components-vs-presentation-components-whats-the-difference-when-to-use-each-and-why/)
+4. [https://angular.io/guide/sharing-ngmodules](https://angular.io/guide/sharing-ngmodules)
