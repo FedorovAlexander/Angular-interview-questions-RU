@@ -12,14 +12,14 @@
 	<summary>Вопросы по архитектуре</summary>
 	1. <a href="answers/architecture.md#ngrx-store">Приведите хороший пример когда нужно использовать ngrx/store?</a> <br/>
 	2. <a href="answers/architecture.md#race-condition">Что такое "race condition" и какие баги могут быть связаны с этим? Как с ними справиться?</a> <br/>
-	3. <a href="answers/architecture.md#smart-dumb">Разница между умным и презентационным компонентом? Приведите пример использования? Назовите преимущества?</a>
+	3. <a href="answers/architecture.md#smart-dumb">Разница между умным и презентационным компонентом? Приведите пример использования? Назовите преимущества?</a> <br/>
 	4. <a href="answers/architecture.md#shared">Что такое Shared модуль?</a>
 </details>
 
 <details>
 	<summary>Вопросы по API</summary>
 	1. <a href="answers/API.md#renderer">Почему для доступа к элементам и манипуляции с ними лучше использовать renderer методы (а не доступ через нативный JS)?</a> <br/>
-	2. <a href="answers/API.md#size">How would you control size of an element on resize of the window in a component?</a> <br/>
+	2. <a href="answers/API.md#size">Как изменить размер элемента при изменении ширины окна?</a> <br/>
 	3. <a href="answers/API.md#ngzone-service">What would be a good use for NgZone service?</a> <br/>
 	4. <a href="answers/API.md#ngzone-why">What are the bootstrap options for NgZone? Why would you use them?</a> <br/>
 	5. <a href="answers/API.md#router-protection">How would you protect a component being activated through the router?</a> <br/>
