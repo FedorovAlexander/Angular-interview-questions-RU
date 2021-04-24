@@ -20,7 +20,7 @@
 	<summary>Вопросы по API</summary>
 	1. <a href="answers/API.md#renderer">Почему для доступа к элементам и манипуляции с ними лучше использовать renderer методы (а не доступ через нативный JS)?</a> <br/>
 	2. <a href="answers/API.md#size">Как изменить размер элемента при изменении ширины окна?</a> <br/>
-	3. <a href="answers/API.md#ngzone-service">What would be a good use for NgZone service?</a> <br/>
+	3. <a href="answers/API.md#ngzone-service">Можете привести хороший пример использования NgZone сервиса?</a> <br/>
 	4. <a href="answers/API.md#ngzone-why">What are the bootstrap options for NgZone? Why would you use them?</a> <br/>
 	5. <a href="answers/API.md#router-protection">How would you protect a component being activated through the router?</a> <br/>
 	6. <a href="answers/API.md#templateref">How would you insert an embedded view from a prepared TemplateRef?</a> <br/>
