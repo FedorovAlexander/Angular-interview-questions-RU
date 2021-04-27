@@ -22,8 +22,7 @@
 	2. <a href="answers/API.md#size">Как изменить размер элемента при изменении ширины окна?</a> <br/>
 	3. <a href="answers/API.md#ngzone-service">Можете привести хороший пример использования NgZone сервиса?</a> <br/>
 	4. <a href="answers/API.md#component-protection">Как защитить компонент от активации через роутер?</a> <br/>
-	5. <a href="answers/API.md#templateref">How would you insert an embedded view from a prepared TemplateRef?</a> <br/>
-	6. <a href="answers/API.md#difference">What is the difference between @ViewChild() and @ContentChild()</a>
+	5. <a href="answers/API.md#difference">В чем разница между @ViewChild() и @ContentChild()?</a>
 </details>
 
 - Вопросы по шаблонам (template)

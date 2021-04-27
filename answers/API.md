@@ -43,12 +43,38 @@ export class someComponent implements OnInit {
 Защитить компонент от активации можно с помощью гардов CanActivate,CanActivateChild, CanDeactivate, CanLoad. Гарды можно написать по разному, но в итоге они возвращают или Observable или Promise или true/false. Гарды регистрируются в providers.
 
 <br/>
+
+## <a name="difference"></a>В чем разница между `@ViewChild()` и `@ContentChild()`?
+
+`@ContentChild` и `@ViewChild` используются для доступа к первому элементу или директиве, соответствующим селектору.
+
+`@ContentChild`:
+
+- Запросы контента делаются перед `ngAfterContentInit` (после `ngOnInit` и `ngDoCheck`)
+- Невозможно получить элементы или директивы, которые находятся в шаблонах других компонентов.
+  <br/>
+
+`@ViewChild`:
+
+- Запросы представления делаются перед `ngAfterViewInit` (после `ngAfterContentInit` и `ngAfterContentChecked`)
+- Поддерживает запросы к DOM
+  - К любому классу в декораторами `@Component` или `@Directive`
+  - К переменной шаблона (т.е. к `<my-component #cmp></my-component>` через `@ViewChild('cmp')`)
+  - К любому провайдеру из дочернего компонента текущего компонента (т.е. `@ViewChild(SomeService) someService: SomeService`)
+  - К `TemplateRef` (т.е. `@ViewChild(TemplateRef) template`)
+
+<br/>
 <br/>
 <br/>
 <br/>
 
 <hr/>
 
-Источники: [https://blog.thoughtram.io/angular/2017/02/21/using-zones-in-angular-for-better-performance.html](https://blog.thoughtram.io/angular/2017/02/21/using-zones-in-angular-for-better-performance.html)
+Источники: <br/>
+[https://blog.thoughtram.io/angular/2017/02/21/using-zones-in-angular-for-better-performance.html](https://blog.thoughtram.io/angular/2017/02/21/using-zones-in-angular-for-better-performance.html)
 <br/>
-[Пример гарда](https://github.com/johnpapa/angular-first-look-examples/blob/master/_examples/storyline-tracker/app/core/auth-guard.service.ts) от Джона Папы.
+[Пример гарда](https://github.com/johnpapa/angular-first-look-examples/blob/master/_examples/storyline-tracker/app/core/auth-guard.service.ts)
+<br/>
+[https://angular.io/api/core/ContentChild](https://angular.io/api/core/ContentChild)
+<br/>
+[https://angular.io/api/core/ViewChild](https://angular.io/api/core/ViewChild)
