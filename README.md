@@ -27,7 +27,7 @@
 
 <details>
 	<summary>Вопросы по шаблонам (template)</summary>
-	1. <a href="answers/template.md#add-class">How can you add an active class to a selected element in a list component?</a> <br/>
+	1. <a href="answers/template.md#add-class">Как при клике добавить класс "active" выбранному элементу списка?</a> <br/>
 	2. <a href="answers/template.md#template-var">What is a template variable. How would you use it?</a> <br/>
 	3. <a href="answers/template.md#prop-func-bind-diff">What is the difference of using a property binding verses a function binding on a template?</a> <br/>
 	4. <a href="answers/template.md#mult-async">What happens if you subscribe to a data source multiple times with async pipe?</a> <br/>
