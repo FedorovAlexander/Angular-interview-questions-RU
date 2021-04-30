@@ -2,12 +2,14 @@
 
 В шаблоне:
 
-```typescript
+```html
 <ul id="list" class="list">
-	<li class="list-item"
+	<li
+		class="list-item"
 		[ngClass]="{item.selectedItem ? 'active' : null}"
 		(click)="listClick(item)"
-		*ngFor="let item of groups">
+		*ngFor="let item of groups"
+	>
 		{{ item.name }}
 	</li>
 </ul>
@@ -22,3 +24,32 @@ listClick(item) {
 ```
 
 <br/>
+
+## <a name="template-var"></a> Что такое template variable? Как ее использовать?
+
+Template variables помогают использовать данные из одной части шаблона в другой части шаблона.
+
+```html
+<input #phone placeholder="номер телефона" />
+
+<!-- другие элементы -->
+
+<button (click)="callPhone(phone.value)">Позвонить</button>
+```
+
+Angular присваивает значение template variable в зависимости от того, где мы ее объявляем:
+
+- Если мы объявляем переменную на компоненте, то переменная ссылается на экземпляр компонента.
+- Если мы объявляем переменную на стандартном HTML тэге, то переменная ссылается на этот элемент.
+- Если мы объявляем переменную на `<ng-template>`, то переменная ссылается на экземпляр TemplateRef этого элемента.
+- Если мы определяем переменную через выражение (`#var="ngModel"`), то переменная ссылается на директиву или компонент с соответствующим именем `exportAs`.
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<hr/>
+
+Источники: <br/>
+[https://angular.io/guide/template-reference-variables](https://angular.io/guide/template-reference-variables)
