@@ -30,9 +30,9 @@
 	1. <a href="answers/template.md#add-class">Как при клике добавить класс "active" выбранному элементу списка?</a> <br/>
 	2. <a href="answers/template.md#template-var">Что такое template variable? Как ее использовать?</a> <br/>
 	3. <a href="answers/template.md#mult-async">Что случится если подписаться на поток данных несколько раз через async pipe?</a> <br/>
-	4. <a href="answers/template.md#ng-diff">What is the difference between ng-content, ng-container and ng-template?</a> <br/>
-	5. <a href="answers/template.md#data-bind">When you create a data-binding in Angular, are you working with attributes or properties? What is the difference anyway?</a> <br/>
-	6. <a href="answers/template.md#brackets-omit">When can you omit the brackets in template binding?</a> <br/>
+	4. <a href="answers/template.md#ng-diff">В чем различия ng-content, ng-container и ng-template?</a> <br/>
+	5. <a href="answers/template.md#data-bind">Когда мы байндим данные в шаблоне, мы работаем с атрибутами или с свойствами (property)?</a> <br/>
+	6. <a href="answers/template.md#brackets-omit">Когда можно не использовать скобки при байндинге в шаблоне?</a> <br/>
 </details>
 
 - Вопросы по компонентам
