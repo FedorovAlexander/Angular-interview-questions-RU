@@ -57,6 +57,42 @@ Angular присваивает значение template variable в завис�
 на родительском элементе в шаблоне.
 
 <br/>
+
+## <a name="ng-diff"></a> В чем различия ng-content, ng-container и ng-template?
+
+`ng-template` - это не DOM элемент в отличии от `ng-container`. Инициализировать внутренность `ng-template` можно только руками (с помощью нужного кода), а сам `ng-template` живет в памяти до того момента, пока его не проинициализируют. Чаще всего используется с `*ngIf`.
+<br/>
+<br/>
+`ng-container` - это DOM элемент, не имеющий селектора. Позволяет удобно группировать элементы. При рендере элементы внутри `ng-container` будут видны, а сам тег `ng-container` будет заменен на комментарий.
+
+`ng-content` - используется для проекции контента. Проекция контента — это способ импортировать HTML контент извне компонента и вставить его в шаблон компонента в определенное место.
+
+```typescript
+// button.component.ts
+import { Component } from "@angular/core";
+
+@Component({
+	selector: "app-button",
+	template: `<button>
+		<ng-content></ng-content>
+	</button>`,
+})
+export class ButtonComponent {}
+
+// app.component.ts
+import { Component } from "@angular/core";
+
+@Component({
+	selector: "app-root",
+	template: `<app-button>
+		<app-icon></app-icon>
+		Button
+	</app-button>`,
+})
+export class AppComponent {}
+```
+
+<br/>
 <br/>
 <br/>
 <br/>
@@ -65,3 +101,7 @@ Angular присваивает значение template variable в завис�
 
 Источники: <br/>
 [https://angular.io/guide/template-reference-variables](https://angular.io/guide/template-reference-variables)
+<br/>
+[https://habr.com/ru/post/491136/](https://habr.com/ru/post/491136/)
+<br/>
+[https://codeburst.io/angular-interview-question-what-are-ng-container-ng-content-and-ng-template-9fafbbc255d5](https://codeburst.io/angular-interview-question-what-are-ng-container-ng-content-and-ng-template-9fafbbc255d5)
