@@ -35,7 +35,16 @@
 	6. <a href="answers/template.md#brackets-omit">Когда можно не использовать скобки при байндинге в шаблоне?</a> <br/>
 </details>
 
-- Вопросы по компонентам
+<details>
+	<summary>Вопросы по компонентам</summary>
+	1. <a href="answers/components.md#deffinition">What is the minimum definition of a component?</a> <br/>
+	2. <a href="answers/components.md#difference">What is the difference between a component and a directive?</a> <br/>
+	3. <a href="answers/components.md#communication">How do components communicate with each other?</a> <br/>
+	4. <a href="answers/components.md#two-way">How do you create two way data binding in Angular?</a> <br/>
+	5. <a href="answers/components.md#errors">How would you create a component to display error messages throughout your application?</a> <br/>
+	6. <a href="answers/components.md#lean">What does a lean component mean to you?</a>
+</details>
+
 - Вопросы по взаимодействию компонентов и state management
 - Вопросы по формам
 - Общие вопросы
