@@ -64,7 +64,8 @@ Angular присваивает значение template variable в завис�
 <br/>
 <br/>
 `ng-container` - это DOM элемент, не имеющий селектора. Позволяет удобно группировать элементы. При рендере элементы внутри `ng-container` будут видны, а сам тег `ng-container` будет заменен на комментарий.
-
+<br/>
+<br/>
 `ng-content` - используется для проекции контента. Проекция контента — это способ импортировать HTML контент извне компонента и вставить его в шаблон компонента в определенное место.
 
 ```typescript
@@ -93,6 +94,12 @@ export class AppComponent {}
 ```
 
 <br/>
+
+## <a name="data-bind"></a> Когда мы байндим данные в шаблоне, мы работаем с атрибутами или с свойствами (property)?
+
+В мире Angular единственная роль атрибутов - инициализировать состояние элемента и директивы. Когда вы пишете привязку данных, вы имеете дело исключительно со свойствами и событиями целевого объекта. Атрибуты HTML фактически исчезают.
+
+<br/>
 <br/>
 <br/>
 <br/>
@@ -105,3 +112,5 @@ export class AppComponent {}
 [https://habr.com/ru/post/491136/](https://habr.com/ru/post/491136/)
 <br/>
 [https://codeburst.io/angular-interview-question-what-are-ng-container-ng-content-and-ng-template-9fafbbc255d5](https://codeburst.io/angular-interview-question-what-are-ng-container-ng-content-and-ng-template-9fafbbc255d5)
+<br/>
+[https://www.freecodecamp.org/news/data-binding-in-angular-explained/#:~:text=Angular%20will%20hardly%20ever%20bind,data%20to%20properties%2C%20not%20attributes!](https://www.freecodecamp.org/news/data-binding-in-angular-explained/#:~:text=Angular%20will%20hardly%20ever%20bind,data%20to%20properties%2C%20not%20attributes!)
