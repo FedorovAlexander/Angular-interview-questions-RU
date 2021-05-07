@@ -37,7 +37,7 @@
 
 <details>
 	<summary>Вопросы по компонентам</summary>
-	1. <a href="answers/components.md#deffinition">What is the minimum definition of a component?</a> <br/>
+	1. <a href="answers/components.md#definition">Какие минимальные требования к компоненту?</a> <br/>
 	2. <a href="answers/components.md#difference">What is the difference between a component and a directive?</a> <br/>
 	3. <a href="answers/components.md#communication">How do components communicate with each other?</a> <br/>
 	4. <a href="answers/components.md#two-way">How do you create two way data binding in Angular?</a> <br/>
