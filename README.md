@@ -42,7 +42,6 @@
 	3. <a href="answers/components.md#communication">Как происходит взаимодействие компонентов?</a> <br/>
 	4. <a href="answers/components.md#two-way">Как сделать двухстороннее связывание данных?</a> <br/>
 	5. <a href="answers/components.md#errors">Как бы вы сделали компонент для показа сообщений об ошибках?</a> <br/>
-	6. <a href="answers/components.md#lean">What does a lean component mean to you?</a>
 </details>
 
 - Вопросы по взаимодействию компонентов и state management
