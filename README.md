@@ -44,7 +44,15 @@
 	5. <a href="answers/components.md#errors">Как бы вы сделали компонент для показа сообщений об ошибках?</a> <br/>
 </details>
 
-- Вопросы по взаимодействию компонентов и state management
+<details>
+	<summary>Вопросы по взаимодействию компонентов и state management</summary>
+	1. <a href="answers/interactions-and-state.md#parent-child">Как передать данные из родительского компонента в дочерний?</a> <br/>
+	2. <a href="answers/interactions-and-state.md#child-parent">Как передать данные из дочернего компонента в родительский?</a> <br/>
+	3. <a href="answers/interactions-and-state.md#event-emit">Какие компоненты будут оповещены о том, что был emit события?</a> <br/>
+	4. <a href="answers/interactions-and-state.md#data-service">Какие есть способы передачи данных из сервиса компоненту? </a> <br/>
+	5. <a href="answers/interactions-and-state.md#cached-data">Как использовать кэшированные данные?</a>
+</details>
+
 - Вопросы по формам
 - Общие вопросы
 - Вопросы по ngModule
