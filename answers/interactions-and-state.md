@@ -38,6 +38,115 @@ export class ChildComponent {
 2. Передавать данные между компонентами можно через сервис. При этом компоненты могут быть никак не связаны между собой.
 
 <br/>
+
+## <a name="child-parent"></a> Как передать данные из дочернего компонента в родительский?
+
+1. Передача данных с помощью `@ViewChild`
+   <br/>
+   `@ViewChild` дает родительскому компоненту доступ к атрибутам и функциям дочернего компонента. Есть один недостаток: дочерний компонент не будет доступен пока view не будет инициализирован. Это значит, что для получения данных из дочернего компонента нужно реализовать `AfterViewInit`.
+
+**parent.component.ts**
+
+```typescript
+import { Component, ViewChild, AfterViewInit } from "@angular/core";
+import { ChildComponent } from "../child/child.component";
+
+@Component({
+	selector: "app-parent",
+	template: `
+		Message: {{ message }}
+		<app-child></app-child>
+	`,
+	styleUrls: ["./parent.component.css"],
+})
+export class ParentComponent implements AfterViewInit {
+	@ViewChild(ChildComponent) child;
+
+	constructor() {}
+
+	message: string;
+
+	ngAfterViewInit() {
+		this.message = this.child.message;
+	}
+}
+```
+
+**child.component.ts**
+
+```typescript
+import { Component } from "@angular/core";
+
+@Component({
+	selector: "app-child",
+	template: ``,
+	styleUrls: ["./child.component.css"],
+})
+export class ChildComponent {
+	message = "Hola Mundo!";
+
+	constructor() {}
+}
+```
+
+2.  Передача данных с помощью `Output()` and `EventEmitter`
+    <br/>
+    В этом случае мы эмитим данные из дочернего компонента.
+    Способ идеально подходит для обработки кликов, ввода в поля форм и других событий пользователя.
+    <br/>
+    В родительском компоненте мы создаем функцию, которая будет обрабатывать полученные из дочернего компонента данные. В шаблоне присваиваем эту функцию тому сообщению, которое эмитится из дочернего компонента (`<app-child (messageEvent)="receiveMessage($event)"></app-child>`). <br/>
+    В дочернем компоненте с помощью декоратора `@Output` мы объявляем событие, которое будет эмитится. Далее создаем функцию, которая будет вызывать эмит этого события. В шаблоне создаем кнопку, при клике на которую будет вызываться функция.
+
+**parent.component.ts**
+
+```typescript
+import { Component } from "@angular/core";
+
+@Component({
+	selector: "app-parent",
+	template: `
+		Message: {{ message }}
+		<app-child (messageEvent)="receiveMessage($event)"></app-child>
+	`,
+	styleUrls: ["./parent.component.css"],
+})
+export class ParentComponent {
+	constructor() {}
+
+	message: string;
+
+	receiveMessage($event) {
+		this.message = $event;
+	}
+}
+```
+
+**child.component.ts**
+
+```typescript
+import { Component, Output, EventEmitter } from "@angular/core";
+
+@Component({
+	selector: "app-child",
+	template: ` <button (click)="sendMessage()">Send Message</button> `,
+	styleUrls: ["./child.component.css"],
+})
+export class ChildComponent {
+	message: string = "Hola Mundo!";
+
+	@Output() messageEvent = new EventEmitter<string>();
+
+	constructor() {}
+
+	sendMessage() {
+		this.messageEvent.emit(this.message);
+	}
+}
+```
+
+3. Передавать данные между компонентами можно через сервис. При этом компоненты могут быть никак не связаны между собой.
+
+<br/>
 <br/>
 <br/>
 <br/>
