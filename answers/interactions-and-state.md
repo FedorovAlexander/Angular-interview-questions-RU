@@ -153,6 +153,18 @@ export class ChildComponent {
 В отличие от DOM событий кастомные события в Angular не всплывают. Поэтому оповещен будет только родительский компонент. Эту проблему можно решить с помощью передачи события "дальше" в родительский компонент родительского компонента, но лучше использовать сервис.
 
 <br/>
+
+## <a name="cached-data"></a> Как кэшировать данные в Angular?
+
+Способы кэширования данных в Angular:
+
+- Сохранять данные в localStorage/sessionStorage
+- Сохранять данные в переменной в сервисе
+- Симулировать стейт с помощью BehaviorSubject и получать из него последнее значение
+- Использовать кэширование в помощью RxJs
+- Использовать хранилище NgRx
+
+<br/>
 <br/>
 <br/>
 <br/>
@@ -162,3 +174,4 @@ export class ChildComponent {
 Источники:<br/>
 
 1. [https://fireship.io/lessons/sharing-data-between-angular-components-four-methods/](https://fireship.io/lessons/sharing-data-between-angular-components-four-methods/)
+2. [https://stackoverflow.com/questions/59972242/angular-show-cached-data-and-update-the-new-data-if-needed-data-in-background](https://stackoverflow.com/questions/59972242/angular-show-cached-data-and-update-the-new-data-if-needed-data-in-background)
