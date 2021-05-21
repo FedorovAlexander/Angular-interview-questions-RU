@@ -52,7 +52,19 @@
 	4. <a href="answers/interactions-and-state.md#cached-data">Как кэшировать данные в Angular?</a>
 </details>
 
-- Вопросы по формам
+<details>
+	<summary>Вопросы по формам</summary>
+	1. <a href="answers/forms.md#when-to-use">When do you use template driven vs model driven forms? Why?</a> <br/>
+	2. <a href="answers/forms.md#submit">How do you submit a form?</a> <br/>
+	3. <a href="answers/forms.md#difference">What's the difference between NgForm, FormGroup, and FormControl? How do they work together?</a> <br/>
+	4. <a href="answers/forms.md#form-builder">What's the advantage of using FormBuilder?</a> <br/>
+	5. <a href="answers/forms.md#validation">How do you add form validation to a form built with FormBuilder?</a> <br/>
+	6. <a href="answers/forms.md#dirty-touched-pristine">What's the difference between dirty, touched, and pristine on a form element?</a> <br/>
+	7. <a href="answers/forms.md#validation-errors">How can you access validation errors in the template to display error messages?</a> <br/>
+	8. <a href="answers/forms.md#async-validation">What is async validation and how is it done?</a> <br/>
+	9. <a href="answers/forms.md#correct-class">What is the correct form control class name which is set to true when value is modified?</a>
+</details>
+
 - Общие вопросы
 - Вопросы по ngModule
 - Вопросы по RxJs
