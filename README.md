@@ -55,7 +55,7 @@
 <details>
 	<summary>Вопросы по формам</summary>
 	1. <a href="answers/forms.md#when-to-use">Когда нужно использовать стандартные (template driven), а когда реактивные (reactive) формы?</a> <br/>
-	2. <a href="answers/forms.md#submit">How do you submit a form?</a> <br/>
+	2. <a href="answers/forms.md#submit">Как отправить форму?</a> <br/>
 	3. <a href="answers/forms.md#difference">What's the difference between NgForm, FormGroup, and FormControl? How do they work together?</a> <br/>
 	4. <a href="answers/forms.md#form-builder">What's the advantage of using FormBuilder?</a> <br/>
 	5. <a href="answers/forms.md#validation">How do you add form validation to a form built with FormBuilder?</a> <br/>
