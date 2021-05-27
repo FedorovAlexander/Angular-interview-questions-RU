@@ -56,13 +56,12 @@
 	<summary>Вопросы по формам</summary>
 	1. <a href="answers/forms.md#when-to-use">Когда нужно использовать стандартные (template driven), а когда реактивные (reactive) формы?</a> <br/>
 	2. <a href="answers/forms.md#submit">Как отправить форму?</a> <br/>
-	3. <a href="answers/forms.md#difference">What's the difference between NgForm, FormGroup, and FormControl? How do they work together?</a> <br/>
-	4. <a href="answers/forms.md#form-builder">What's the advantage of using FormBuilder?</a> <br/>
-	5. <a href="answers/forms.md#validation">How do you add form validation to a form built with FormBuilder?</a> <br/>
-	6. <a href="answers/forms.md#dirty-touched-pristine">What's the difference between dirty, touched, and pristine on a form element?</a> <br/>
-	7. <a href="answers/forms.md#validation-errors">How can you access validation errors in the template to display error messages?</a> <br/>
-	8. <a href="answers/forms.md#async-validation">What is async validation and how is it done?</a> <br/>
-	9. <a href="answers/forms.md#correct-class">What is the correct form control class name which is set to true when value is modified?</a>
+	3. <a href="answers/forms.md#difference">В чем разница между NgForm, FormGroup, и FormControl?</a> <br/>
+	4. <a href="answers/forms.md#form-builder">В чем преимущество использования FormBuilder?</a> <br/>
+	5. <a href="answers/forms.md#validation">Как добавить валидацию к форме, сделанной с помощью FormBuilder?</a> <br/>
+	6. <a href="answers/forms.md#dirty-touched-pristine">В чем разница между состояниями dirty, touched и pristine?</a> <br/>
+	7. <a href="answers/forms.md#validation-errors">Как получит доступ к текстам ошибок валидации, чтобы показать их в шаблоне?</a> <br/>
+	8. <a href="answers/forms.md#async-validation">Что такое асинхронная валидация и как ее сделать?</a>
 </details>
 
 - Общие вопросы
