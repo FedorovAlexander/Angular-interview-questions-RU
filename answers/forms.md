@@ -32,6 +32,12 @@ Template driven формы можно использовать в тех слу�
 `FormControl` следит за значением и валидацией одного конкретного контроллера формы.
 
 <br/>
+
+## <a name="form-builder"></a>В чем преимущество использования FormBuilder?
+
+`FormBuilder` упрощает создание новых сущностей `FormControl`, `FormGroup` или `FormArray`. Сокращает количество кода, необходимого для создания сложных форм.
+
+<br/>
 <br/>
 <br/>
 <br/>
@@ -43,3 +49,4 @@ Template driven формы можно использовать в тех слу�
 1. [https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/](https://blog.angular-university.io/introduction-to-angular-2-forms-template-driven-vs-model-driven/)
 2. [https://angular.io/start/start-forms](https://angular.io/start/start-forms)
 3. [https://angular.io/api/forms/FormControl](https://angular.io/api/forms/FormControl)
+4. [https://angular.io/api/forms/FormBuilder](https://angular.io/api/forms/FormBuilder)
