@@ -91,3 +91,4 @@ this.contactForm = this.formBuilder.group({
 3. [https://angular.io/api/forms/FormControl](https://angular.io/api/forms/FormControl)
 4. [https://angular.io/api/forms/FormBuilder](https://angular.io/api/forms/FormBuilder)
 5. [https://www.tektutorialshub.com/angular/angular-formbuilder-in-reactive-forms/#validations](https://www.tektutorialshub.com/angular/angular-formbuilder-in-reactive-forms/#validations)
+6. [https://angular.io/guide/form-validation](https://angular.io/guide/form-validation)
