@@ -38,6 +38,28 @@ Template driven формы можно использовать в тех слу�
 `FormBuilder` упрощает создание новых сущностей `FormControl`, `FormGroup` или `FormArray`. Сокращает количество кода, необходимого для создания сложных форм.
 
 <br/>
+
+## <a name="validation"></a>Как добавить валидацию к форме, сделанной с помощью FormBuilder?
+
+Для валидации формы, созданной с помощью `FormBuilder` нужно: <br/>
+
+1. Импортировать валидаторы: <br/>
+
+```typescript
+import { Validators } from "@angular/forms";
+```
+
+2. Добавить массив с валидаторами к контроллеру поля формы: <br/>
+
+```typescript
+this.contactForm = this.formBuilder.group({
+	name: ["", [Validators.required, Validators.minLength(10)]],
+	email: ["", [Validators.required, Validators.email]],
+	country: ["", [Validators.required]],
+});
+```
+
+<br/>
 <br/>
 <br/>
 <br/>
@@ -50,3 +72,4 @@ Template driven формы можно использовать в тех слу�
 2. [https://angular.io/start/start-forms](https://angular.io/start/start-forms)
 3. [https://angular.io/api/forms/FormControl](https://angular.io/api/forms/FormControl)
 4. [https://angular.io/api/forms/FormBuilder](https://angular.io/api/forms/FormBuilder)
+5. [https://www.tektutorialshub.com/angular/angular-formbuilder-in-reactive-forms/#validations](https://www.tektutorialshub.com/angular/angular-formbuilder-in-reactive-forms/#validations)
