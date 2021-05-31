@@ -60,7 +60,7 @@
 	4. <a href="answers/forms.md#form-builder">В чем преимущество использования FormBuilder?</a> <br/>
 	5. <a href="answers/forms.md#validation">Как добавить валидацию к форме, сделанной с помощью FormBuilder?</a> <br/>
 	6. <a href="answers/forms.md#dirty-touched-pristine">В чем разница между состояниями dirty, touched и pristine?</a> <br/>
-	7. <a href="answers/forms.md#validation-errors">Как получит доступ к текстам ошибок валидации, чтобы показать их в шаблоне?</a> <br/>
+	7. <a href="answers/forms.md#validation-errors">Как получит доступ к ошибкам валидации, чтобы показать их в шаблоне?</a> <br/>
 	8. <a href="answers/forms.md#async-validation">Что такое асинхронная валидация и как ее сделать?</a>
 </details>
 

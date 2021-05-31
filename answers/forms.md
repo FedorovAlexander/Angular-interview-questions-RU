@@ -68,6 +68,16 @@ this.contactForm = this.formBuilder.group({
 `pristine` имеет значение `true`, если пользователь вообще не трогал это поле формы.
 
 <br/>
+
+## <a name="validation-errors"></a>Как получит доступ к ошибкам валидации, чтобы показать их в шаблоне?
+
+У каждого поля формы в Angular есть свойство `errors`. К примеру, если мы задали валидацию `Validators.required`, то мы можем показать наш текст ошибки с помощью `*ngIf`: <br/>
+
+```html
+<div *ngIf="name.errors?.required">Обязательное поле</div>
+```
+
+<br/>
 <br/>
 <br/>
 <br/>
