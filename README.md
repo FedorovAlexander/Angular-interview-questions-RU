@@ -63,8 +63,20 @@
 	7. <a href="answers/forms.md#validation-errors">Как получит доступ к ошибкам валидации, чтобы показать их в шаблоне?</a> <br/>
 </details>
 
-- Общие вопросы
-- Вопросы по ngModule
+<details>
+	<summary>Вопросы по ngModule</summary>
+	1. <a href="answers/ngModule.md#what-is">Зачем нужен NgModule?
+	2. <a href="answers/ngModule.md#how-to-create">Когда нужно создавать новый NgModule?</a> <br/>
+	3. <a href="answers/ngModule.md#for-root-for-child">В чем разница между методами forRoot()`and forChild() и зачем они нужны?</a> <br/>
+	4. <a href="answers/ngModule.md#provideIn">Как используется свойство providedIn?</a> <br/>
+	5. <a href="answers/ngModule.md#shared-module">Что бы вы поместили в shared модуль?</a> <br/>
+	6. <a href="answers/ngModule.md#not-shared-module">Что бы вы не поместили в shared модуль?</a> <br/>
+	7. <a href="answers/ngModule.md#where-to-put">В какой модуль вы бы поместили сервис которые используется по всему приложению?</a> <br/>
+	8. <a href="answers/ngModule.md#exports">Зачем нужны exports в NgModule?</a> <br/>
+	9. <a href="answers/ngModule.md#exports-declarations">В чем разница между exports и declarations в NgModule?</a> <br/>
+	10. <a href="answers/ngModule.md#why-is-it-bad">Почему не стоит импортировать сервис из SharedModule в lazy loaded модуль?</a>
+</details>
+
 - Вопросы по RxJs
 - Вопросы по производительности
 - Вопросы по пайпам
