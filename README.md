@@ -65,7 +65,7 @@
 
 <details>
 	<summary>Вопросы по ngModule</summary>
-	1. <a href="answers/ngModule.md#what-is">Зачем нужен NgModule?
+	1. <a href="answers/ngModule.md#what-is">Зачем нужен NgModule?</a> <br/>
 	2. <a href="answers/ngModule.md#how-to-create">Когда нужно создавать новый NgModule?</a> <br/>
 	3. <a href="answers/ngModule.md#for-root-for-child">В чем разница между методами forRoot()`and forChild() и зачем они нужны?</a> <br/>
 	4. <a href="answers/ngModule.md#provideIn">Как используется свойство providedIn?</a> <br/>
@@ -77,7 +77,21 @@
 	10. <a href="answers/ngModule.md#why-is-it-bad">Почему не стоит импортировать сервис из SharedModule в lazy loaded модуль?</a>
 </details>
 
-- Вопросы по RxJs
+<details>
+	<summary>Вопросы по RxJs</summary>
+	1. <a href="answers/RxJs.md#observable-promise">What is the difference between an observable and a promise?</a> <br/>
+	2. <a href="answers/RxJs.md#observable-subject">What is the difference between an observable and a subject?</a> <br/>
+	3. <a href="answers/RxJs.md#angular-apis">What are some of the angular apis that are using observables?</a> <br/>
+	4. <a href="answers/RxJs.md#how-to-cash">How would you cache an observable data?</a> <br/>
+	5. <a href="answers/RxJs.md#order-api-calls">How would you implement a multiple api calls that needs to happen in order using rxjs?</a> <br/>
+	6. <a href="answers/RxJs.md#switchMap-concatMap-mergeMap">What is the difference between switchMap, concatMap and mergeMap?</a> <br/>
+	7. <a href="answers/RxJs.md#multiple-calls">How would you make sure an api call that needs to be called only once but with multiple conditions. Example: if you need to get some data in multiple routes but, once you get it, you can reuse it in the routes that needs it, therefor no need to make another call to your backend apis.</a> <br/>
+	8. <a href="answers/RxJs.md#brush-behavior">How would you implement a brush behavior using rxjs?</a> <br/>
+	9. <a href="answers/RxJs.md#color-picker">How would you implement a color picker with rxjs?</a> <br/>
+	10. <a href="answers/RxJs.md#respond-to-2-observables">If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route parameters and with prev/next buttons).</a> <br/>
+	11. <a href="answers/RxJs.md#scan-reduce">What is the difference between scan() vs reduce()?</a>
+</details>
+
 - Вопросы по производительности
 - Вопросы по пайпам
 - Вопросы по роутеру
