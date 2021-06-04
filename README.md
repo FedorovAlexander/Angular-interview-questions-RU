@@ -67,7 +67,7 @@
 	<summary>Вопросы по ngModule</summary>
 	1. <a href="answers/ngModule.md#what-is">Зачем нужен NgModule?</a> <br/>
 	2. <a href="answers/ngModule.md#when-to-create">Когда нужно создавать новый NgModule?</a> <br/>
-	3. <a href="answers/ngModule.md#for-root-for-child">В чем разница между методами forRoot()`and forChild() и зачем они нужны?</a> <br/>
+	3. <a href="answers/ngModule.md#for-root-for-child">В чем разница между методами forRoot() and forChild() и зачем они нужны?</a> <br/>
 	4. <a href="answers/ngModule.md#provideIn">Как используется свойство providedIn?</a> <br/>
 	5. <a href="answers/ngModule.md#shared-module">Что бы вы поместили в shared модуль?</a> <br/>
 	6. <a href="answers/ngModule.md#not-shared-module">Что бы вы не поместили в shared модуль?</a> <br/>
