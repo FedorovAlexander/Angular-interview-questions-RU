@@ -19,6 +19,12 @@ RouterModule объявляет и экспортирует директивы (
 Из названий методов ясно, что метод `forRoot` должен быть вызван только в корневом модуле (app.module), а `forChild` должен вызываться в других (feature) модулях. Таким образом все директивы, компоненты и пайпы всё также будут экспортироваться из модуля, но новый экземпляр сервиса не будет создан.
 
 <br/>
+
+## <a name="provideIn"></a>Как используется свойство providedIn?
+
+`ProvidedIn` указывает на модуль, в котором будет использоваться сервис. Если указать `providedIn: 'root'` то сервис можно использовать по всему приложению.
+
+<br/>
 <br/>
 <br/>
 <br/>
@@ -28,3 +34,4 @@ RouterModule объявляет и экспортирует директивы (
 Источники:<br/>
 
 1. [https://angular.io/api/router/RouterModule](https://angular.io/api/router/RouterModule)
+1. [https://angular.io/guide/providers](https://angular.io/guide/providers)
