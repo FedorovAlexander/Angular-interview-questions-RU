@@ -87,13 +87,92 @@
 	7. <a href="answers/RxJs.md#scan-reduce">В чем разница между scan() и reduce()?</a>
 </details>
 
-- Вопросы по производительности
-- Вопросы по пайпам
-- Вопросы по роутеру
-- Вопросы по сервисам
-- Вопросы по структурным директивам
-- Вопросы по стилям
-- Вопросы по написанию кода (style guide)
-- Вопросы по тестам
-- Вопросы по TypeScript
-- Вопросы по JavaScript
+<details>
+	<summary>Вопросы по производительности</summary>
+	1. <a href="answers/performance.md#pay-attention">What are some of the things that you pay attention to, to make sure your angular application is performant?</a> <br/>
+	2. <a href="answers/performance.md#tools-code">What tools would you use to find a performance issue in your code?</a> <br/>
+	3. <a href="answers/performance.md#tools-to-improve">What tools have you used to improve the performance of your application?</a> <br/>
+	4. <a href="answers/performance.md#scroll-performance">What are some ways you may improve your website's scrolling performance?</a> <br/>
+	5. <a href="answers/performance.md#difference">Explain the difference between layout, painting and compositing.</a> <br/>
+	6. <a href="answers/performance.md#have-you-seen">Have you seen Jeff Cross's NgCruise talk on performance?</a>
+</details>
+
+<details>
+	<summary>Вопросы по пайпам</summary>
+	1. <a href="answers/pipes.md#pure-pipe">What is a pure pipe?</a> <br/>
+	2. <a href="answers/pipes.md#async-pipe">What is an async pipe?</a> <br/>
+	3. <a href="answers/pipes.md#kind-of-data-async">What kind of data can be used with async pipe?</a> <br/>
+	4. <a href="answers/pipes.md#how-to-create">How do you create a custom pipe?</a> <br/>
+	5. <a href="answers/pipes.md#how-pipe-prevent-leeks">How does async pipe prevents memory leeks?</a> <br/>
+	6. <a href="answers/pipes.md#pure-impure">What is the difference between pure and impure pipes?</a>
+</details>
+
+<details>
+	<summary>Вопросы по роутеру</summary>
+	1. <a href="answers/router.md#for-root-for-child">What is the difference between RouterModule.forRoot() vs RouterModule.forChild()? Why is it important?</a> <br/>
+	2. <a href="answers/router.md#loadChildren">How does loadChildren property work?</a> <br/>
+	3. <a href="answers/router.md#when-to-use-routing-module">Do you need a Routing Module? Why/not?</a> <br/>
+	4. <a href="answers/router.md#when-lazy-loaded-is-loaded">When does a lazy loaded module is loaded?</a> <br/>
+	5. <a href="answers/router.md#activate-route-router-state">Can you explain the difference between ActivatedRoute and RouterState?</a> <br/>
+	6. <a href="answers/router.md#debug">How do you debug router?</a> <br/>
+	7. <a href="answers/router.md#route-guards">Why do we need route guards?</a> <br/>
+	8. <a href="answers/router.md#router-outlet">What is a RouterOutlet?</a>
+</details>
+
+<details>
+	<summary>Вопросы по сервисам</summary>
+	1. <a href="answers/service.md#use-case">What is the use case of services?</a> <br/>
+	2. <a href="answers/service.md#injected">How are the services injected to your application?</a> <br/>
+	3. <a href="answers/service.md#unit-test">How do you unit test a service with a dependency?</a>
+</details>
+
+<details>
+	<summary>Вопросы по структурным директивам</summary>
+	1. <a href="answers/directives.md#what-is">What is a structural directive?</a> <br/>
+	2. <a href="answers/directives.md#html">How do you identify a structural directive in html?</a> <br/>
+	3. <a href="answers/directives.md#hide-remove">When creating your own structural directives, how would you decide on hiding or removing an element? What would be the advantages or disadvantages of choosing one method rather than the other?</a>
+</details>
+
+<details>
+	<summary>Вопросы по стилям</summary>
+	1. <a href="answers/styles.md#select-custom-element">How would you select a custom component to style it.</a> <br/>
+	2. <a href="answers/styles.md#targets-host">What pseudo-class selector targets styles in the element that hosts the component?</a> <br/>
+	3. <a href="answers/styles.md#all-child">How would you select all the child components' elements?</a> <br/>
+	4. <a href="answers/styles.md#select-class-any-ancestor">How would you select a css class in any ancestor of the component host element, all the way up to the document root?</a> <br/>
+	5. <a href="answers/styles.md#all-mighty-class">What selector force a style down through the child component tree into all the child component views?</a> <br/>
+	6. <a href="answers/styles.md#host-context">What does :host-context() pseudo-class selector targets?</a>
+</details>
+
+<details>
+	<summary>Вопросы по написанию кода (style guide)</summary>
+	1. <a href="answers/style-guide.md#suggestions">What are some of the Angular Style Guide suggestions you follow on your code? Why?</a> <br/>
+	2. <a href="answers/style-guide.md#importance">Is it important to have a style guide? Why/not?</a> <br/>
+</details>
+
+<details>
+	<summary>Вопросы по тестам</summary>
+	1. <a href="answers/tests.md#tests">What are some of the different tests types you can write?</a> <br/>
+	2. <a href="answers/tests.md#mock-a-service">How do you mock a service to inject in an integration test?</a> <br/>
+	3. <a href="answers/tests.md#mock-a-module">How do you mock a module in an integration test?</a> <br/>
+	4. <a href="answers/tests.md#test-a-component">How do you test a component that has a dependency to an async service?</a> <br/>
+	5. <a href="answers/tests.md#async-fake-async">What is the difference between 'async()' and 'fakeAsync()'?</a>
+</details>
+
+<details>
+	<summary>Вопросы по TypeScript</summary>
+	1. <a href="answers/typescript.md#why-type">Why do you need type definitions?</a> <br/>
+	2. <a href="answers/typescript.md#custom-type">How would you define a custom type?</a> <br/>
+	3. <a href="answers/typescript.md#interface-class">What is the difference between an Interface and a Class?</a> <br/>
+	4. <a href="answers/typescript.md#discriminated">What are Discriminated union types?</a> <br/>
+	5. <a href="answers/typescript.md#object-type">How do you define Object of Objects type in typescript?</a> <br/>
+	6. <a href="answers/typescript.md#capture">How can you capture the 'type' the user provides (e.g. number), so that we can use that information later.</a>
+</details>
+
+<details>
+	<summary>Вопросы по JavaScript</summary>
+	1. <a href="answers/javascript.md#var-let-const">Explain the difference between var, let and const key words.</a> <br/>
+	2. <a href="answers/javascript.md#garbage">Could you make sure a const value is garbage collected?</a> <br/>
+	3. <a href="answers/javascript.md#object-assign">Explain Object.assign and possible use cases.</a> <br/>
+	4. <a href="answers/javascript.md#object-freeze">Explain Object.freeze and possible use cases.</a> <br/>
+	5. <a href="answers/javascript.md#destruct-assignment">What is destructuring assignment?</a>
+</details>
