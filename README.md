@@ -73,8 +73,7 @@
 	6. <a href="answers/ngModule.md#not-shared-module">Что бы вы не поместили в shared модуль?</a> <br/>
 	7. <a href="answers/ngModule.md#where-to-put">В какой модуль вы бы поместили сервис которые используется по всему приложению?</a> <br/>
 	8. <a href="answers/ngModule.md#exports">Зачем нужны exports в NgModule?</a> <br/>
-	9. <a href="answers/ngModule.md#exports-declarations">В чем разница между exports и declarations в NgModule?</a> <br/>
-	10. <a href="answers/ngModule.md#why-is-it-bad">Почему не стоит импортировать сервис из SharedModule в lazy loaded модуль?</a>
+	9. <a href="answers/ngModule.md#why-is-it-bad">Почему не стоит импортировать сервис из SharedModule в lazy loaded модуль?</a>
 </details>
 
 <details>
