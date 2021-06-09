@@ -80,11 +80,10 @@
 	<summary>Вопросы по RxJs</summary>
 	1. <a href="answers/RxJs.md#observable-promise">В чем разница между observable и promise?</a> <br/>
 	2. <a href="answers/RxJs.md#observable-subject">В чем разница между observable и subject?</a> <br/>
-	3. <a href="answers/RxJs.md#angular-apis">Назовите несколько angular api, которые используют observables?</a> <br/>
-	4. <a href="answers/RxJs.md#how-to-cash">Как кэшировать данные из observable?</a> <br/>
-	5. <a href="answers/RxJs.md#order-api-calls">Как с помощью rxjs реализовать несколько запросов к api, которые должны идти друг за другом?</a> <br/>
-	6. <a href="answers/RxJs.md#switchMap-concatMap-mergeMap">В чем разница между switchMap, concatMap и mergeMap?</a> <br/>
-	7. <a href="answers/RxJs.md#scan-reduce">В чем разница между scan() и reduce()?</a>
+	3. <a href="answers/RxJs.md#how-to-cache">Как кэшировать данные из observable?</a> <br/>
+	4. <a href="answers/RxJs.md#order-api-calls">Как с помощью rxjs реализовать несколько запросов к api, которые должны идти друг за другом?</a> <br/>
+	5. <a href="answers/RxJs.md#switchMap-concatMap-mergeMap">В чем разница между switchMap, concatMap и mergeMap?</a> <br/>
+	6. <a href="answers/RxJs.md#scan-reduce">В чем разница между scan() и reduce()?</a>
 </details>
 
 <details>

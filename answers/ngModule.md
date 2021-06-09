@@ -66,4 +66,4 @@ RouterModule объявляет и экспортирует директивы (
 Источники:<br/>
 
 1. [https://angular.io/api/router/RouterModule](https://angular.io/api/router/RouterModule)
-1. [https://angular.io/guide/providers](https://angular.io/guide/providers)
+2. [https://angular.io/guide/providers](https://angular.io/guide/providers)
