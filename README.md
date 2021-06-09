@@ -84,6 +84,7 @@
 	4. <a href="answers/RxJs.md#order-api-calls">Как с помощью rxjs реализовать несколько запросов к api, которые должны идти друг за другом?</a> <br/>
 	5. <a href="answers/RxJs.md#switchMap-concatMap-mergeMap">В чем разница между switchMap, concatMap и mergeMap?</a> <br/>
 	6. <a href="answers/RxJs.md#scan-reduce">В чем разница между scan() и reduce()?</a>
+	7. <a href="answers/RxJs.md#behavior-reply-async">В чем разница между BehaviorSubject, ReplySubject и AsyncSubject()?</a>
 </details>
 
 <details>
