@@ -79,6 +79,39 @@ obs.next(Math.random());
 `mergeMap` подписывается на новый Observable при этом не отписываясь от предыдущих. Порядок, в котором эмитятся Observable, не сохраняется.
 
 <br/>
+
+## <a name="scan-reduce"></a>В чем разница между scan() и reduce()
+
+Scan выведет все значения, которые эмитил Observable. <br/>
+Reduce выведет только последнее значение.
+
+```typescript
+var obsScan = Observable.from([1, 2, 3, 4, 5, 6]);
+var count1 = obsScan.scan((acc, one) => acc + one, 0);
+count1.subscribe((x) => {
+	console.log("scan shows incremental total", x);
+});
+
+var obsReduce = Observable.from([1, 2, 3, 4, 5, 6]);
+var count2 = obsReduce.reduce((acc, one) => acc + one, 0);
+count2.subscribe((x) => {
+	console.log("reduce shows only total", x);
+});
+```
+
+В консоли:
+
+```
+scan shows incremental total 1
+scan shows incremental total 3
+scan shows incremental total 6
+scan shows incremental total 10
+scan shows incremental total 15
+scan shows incremental total 21
+reduce shows only total 21
+```
+
+<br/>
 <br/>
 <br/>
 <br/>
@@ -91,3 +124,4 @@ obs.next(Math.random());
 2. [https://blog.angular-university.io/rxjs-higher-order-mapping/](https://blog.angular-university.io/rxjs-higher-order-mapping/)
 3. [https://www.learnrxjs.io/learn-rxjs/operators/transformation/mergemap](https://www.learnrxjs.io/learn-rxjs/operators/transformation/mergemap)
 4. [http://coldfox.ru/article/5d4b28a0c076ee44b59a1736/RxJS-map-mergeMap-switchMap-concatMap](http://coldfox.ru/article/5d4b28a0c076ee44b59a1736/RxJS-map-mergeMap-switchMap-concatMap)
+5. [https://country-code.ghost.io/rxjs-scan-vs-reduce/](https://country-code.ghost.io/rxjs-scan-vs-reduce/)
