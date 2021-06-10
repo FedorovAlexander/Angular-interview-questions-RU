@@ -89,3 +89,5 @@ obs.next(Math.random());
 
 1. [https://medium.com/ngx/practical-use-rxjs-81aaab57045c](https://medium.com/ngx/practical-use-rxjs-81aaab57045c)
 2. [https://blog.angular-university.io/rxjs-higher-order-mapping/](https://blog.angular-university.io/rxjs-higher-order-mapping/)
+3. [https://www.learnrxjs.io/learn-rxjs/operators/transformation/mergemap](https://www.learnrxjs.io/learn-rxjs/operators/transformation/mergemap)
+4. [http://coldfox.ru/article/5d4b28a0c076ee44b59a1736/RxJS-map-mergeMap-switchMap-concatMap](http://coldfox.ru/article/5d4b28a0c076ee44b59a1736/RxJS-map-mergeMap-switchMap-concatMap)
