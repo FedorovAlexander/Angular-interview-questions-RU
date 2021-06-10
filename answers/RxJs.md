@@ -60,6 +60,12 @@ obs.next(Math.random());
 Также можно использовать `BehaviorSubject`. Этот оператор хранит текущее значение и передаст его новому подписчику.
 
 <br/>
+
+## <a name="order-api-calls"></a>Как с помощью rxjs реализовать несколько запросов к api, которые должны идти друг за другом?
+
+Для реализации следующий друг за другом запросов к API нужно использовать Observable высшего порядка `concatMap`. Данный оператор ждет, пока предыдущий запрос будет выполнен, а затем делает следующий.
+
+<br/>
 <br/>
 <br/>
 <br/>
@@ -69,3 +75,4 @@ obs.next(Math.random());
 Источники:<br/>
 
 1. [https://medium.com/ngx/practical-use-rxjs-81aaab57045c](https://medium.com/ngx/practical-use-rxjs-81aaab57045c)
+2. [https://blog.angular-university.io/rxjs-higher-order-mapping/](https://blog.angular-university.io/rxjs-higher-order-mapping/)
