@@ -112,6 +112,20 @@ reduce shows only total 21
 ```
 
 <br/>
+
+## <a name="subject"></a>Что такое Subject?
+
+**Subject** - это тип Observable, который, может передавать данные нескольким Observer'ам. Это означает, что Subject многоадресный (multicast), а Observable одноадресный (unicast).
+
+Каждый Subject это Observable, и на него можно подписаться, но подписка не означает выполнение. Происходит только регистрация нового Observerа в списке Observerов.
+
+В то же время каждый Subject является Observerом и у него есть методы `next`, `complete` и `error`. Если мы хотим передать новое значение в Subject, то мы должны использовать метод `.next()`, и тогда значение будет передано всем подписанным на Subject Observerам.
+
+<br/>
+
+## <a name="behavior-reply-async"></a>В чем разница между BehaviorSubject, ReplySubject и AsyncSubject?
+
+<br/>
 <br/>
 <br/>
 <br/>
