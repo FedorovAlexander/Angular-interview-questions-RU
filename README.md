@@ -86,7 +86,8 @@
 	6. <a href="answers/RxJs.md#scan-reduce">В чем разница между scan() и reduce()?</a>
 	7. <a href="answers/RxJs.md#subject">Что такое Subject?</a>
 	8. <a href="answers/RxJs.md#behavior-reply-async">В чем разница между BehaviorSubject, ReplySubject и AsyncSubject?</a>
-	9. <a href="answers/RxJs.md#higher-order">Что такое Observable высшего порядка (Higher-Order)?</a>
+	9. <a href="answers/RxJs.md#higher-order">Что такое Observable высшего порядка (Higher-Order)?</a> <br/>
+	10. <a href="answers/RxJs.md#of-from">В чем разница между of и from ?</a>
 </details>
 
 <details>
