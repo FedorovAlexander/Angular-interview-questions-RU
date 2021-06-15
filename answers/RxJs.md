@@ -144,6 +144,12 @@ BehaviorSubject хранит последнее значение, которое
 AsyncSubject хранит только последнее значение и передает его Observer'у только если был вызван метод `.complete()`.
 
 <br/>
+
+## <a name="higher-order"></a>Что такое Observable высшего порядка (Higher-Order)?
+
+Observable высшего порядка - это Observable, значением которого является новый Observable. Примеры: switchMap, mergeMap и concatMap.
+
+<br/>
 <br/>
 <br/>
 <br/>
