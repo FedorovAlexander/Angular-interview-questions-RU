@@ -150,6 +150,38 @@ AsyncSubject хранит только последнее значение и п
 Observable высшего порядка - это Observable, значением которого является новый Observable. Примеры: switchMap, mergeMap и concatMap.
 
 <br/>
+
+## <a name="of-from"></a>В чем разница между of и from?
+
+Допустим у нас есть массив:
+
+```javascript
+let fruits = ["orange", "apple", "banana"];
+```
+
+Оператор `from` вернет значения одно за другим.
+
+```javascript
+from(fruits).subscribe(console.log); // 'orange','apple','banana'
+```
+
+Оператор `of` вернет весь массив целиком.
+
+```javascript
+of(fruits).subscribe(console.log); //  ['orange','apple','banana']
+```
+
+<br/>
+<br/>
+
+**Примечание:**<br/>
+Оператор `of` ведет себя так же как `from` при использовании спред оператора:
+
+```javascript
+of(...fruits).subscribe(console.log); //  'orange','apple','banana'
+```
+
+<br/>
 <br/>
 <br/>
 <br/>
