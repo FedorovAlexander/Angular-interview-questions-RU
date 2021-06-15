@@ -92,22 +92,19 @@
 
 <details>
 	<summary>Вопросы по производительности</summary>
-	1. <a href="answers/performance.md#pay-attention">What are some of the things that you pay attention to, to make sure your angular application is performant?</a> <br/>
-	2. <a href="answers/performance.md#tools-code">What tools would you use to find a performance issue in your code?</a> <br/>
-	3. <a href="answers/performance.md#tools-to-improve">What tools have you used to improve the performance of your application?</a> <br/>
-	4. <a href="answers/performance.md#scroll-performance">What are some ways you may improve your website's scrolling performance?</a> <br/>
-	5. <a href="answers/performance.md#difference">Explain the difference between layout, painting and compositing.</a> <br/>
-	6. <a href="answers/performance.md#have-you-seen">Have you seen Jeff Cross's NgCruise talk on performance?</a>
+	1. <a href="answers/performance.md#tools-to-improve">Что можно сделать, чтобы улучшить производительность приложения?</a> <br/>
+	2. <a href="answers/performance.md#scroll-performance">Какие есть способы улучшения производительности скролла?</a> <br/>
+	3. <a href="answers/performance.md#difference">В чем разница между layout, painting и compositing?</a> <br/>
 </details>
 
 <details>
 	<summary>Вопросы по пайпам</summary>
-	1. <a href="answers/pipes.md#pure-pipe">What is a pure pipe?</a> <br/>
-	2. <a href="answers/pipes.md#async-pipe">What is an async pipe?</a> <br/>
-	3. <a href="answers/pipes.md#kind-of-data-async">What kind of data can be used with async pipe?</a> <br/>
-	4. <a href="answers/pipes.md#how-to-create">How do you create a custom pipe?</a> <br/>
-	5. <a href="answers/pipes.md#how-pipe-prevent-leeks">How does async pipe prevents memory leeks?</a> <br/>
-	6. <a href="answers/pipes.md#pure-impure">What is the difference between pure and impure pipes?</a>
+	1. <a href="answers/pipes.md#pure-pipe">Что такое пайп в Angular?</a> <br/>
+	2. <a href="answers/pipes.md#async-pipe">Что такое async пайп?</a> <br/>
+	3. <a href="answers/pipes.md#kind-of-data-async">Какие данные могут быть использованы с async pipe?</a> <br/>
+	4. <a href="answers/pipes.md#how-to-create">Как сделать кастомный пайп?</a> <br/>
+	5. <a href="answers/pipes.md#how-pipe-prevent-leeks">Как async pipe предотвращает утечку памяти?</a> <br/>
+	6. <a href="answers/pipes.md#pure-impure">В чем разница между чистыми и нечистыми пайпами?</a>
 </details>
 
 <details>
