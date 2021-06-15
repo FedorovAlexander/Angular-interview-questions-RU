@@ -2,7 +2,7 @@
 
 **Promise** обрабатывает одно значение по завершению асинхронной операции, вне зависимости от ее исхода, и не поддерживают отмену операции.
 <br>
-<br>
+
 **Observable** же является потоком, и позволяет передавать как ноль, так и несколько событий, когда callback вызывается для каждого события.
 
 <br/>
@@ -125,6 +125,24 @@ reduce shows only total 21
 
 ## <a name="behavior-reply-async"></a>В чем разница между BehaviorSubject, ReplySubject и AsyncSubject?
 
+<br>
+
+**BehaviorSubject**
+
+BehaviorSubject хранит последнее значение, которое было передано подписчику. При подписке на BehaviorSubject, новый Observer сразу же получит значение, хранящиеся в BehaviorSubject. В момент объявления BehaviorSubject можно передавать начальное значение.
+
+<br>
+
+**ReplySubject**
+
+У ReplySubject принцип действия похож на BehaviorSubject. Отличие в том, что ReplySubject может хранить несколько значений и передавать их новый Observer'ам. При создании ReplySubject необходимо указать количество последних значений, которое он должен запоминать. Кроме этого мы можем задать время в миллисекундах, которое определяет насколько "старым" может быть значение.
+
+<br>
+
+**AsyncSubject**
+
+AsyncSubject хранит только последнее значение и передает его Observer'у только если был вызван метод `.complete()`.
+
 <br/>
 <br/>
 <br/>
@@ -139,3 +157,4 @@ reduce shows only total 21
 3. [https://www.learnrxjs.io/learn-rxjs/operators/transformation/mergemap](https://www.learnrxjs.io/learn-rxjs/operators/transformation/mergemap)
 4. [http://coldfox.ru/article/5d4b28a0c076ee44b59a1736/RxJS-map-mergeMap-switchMap-concatMap](http://coldfox.ru/article/5d4b28a0c076ee44b59a1736/RxJS-map-mergeMap-switchMap-concatMap)
 5. [https://country-code.ghost.io/rxjs-scan-vs-reduce/](https://country-code.ghost.io/rxjs-scan-vs-reduce/)
+6. [https://medium.com/duomly-blockchain-online-courses/understand-how-rxjs-observables-and-subjects-work-and-whats-the-difference-between-them-13d9b047dd94](https://medium.com/duomly-blockchain-online-courses/understand-how-rxjs-observables-and-subjects-work-and-whats-the-difference-between-them-13d9b047dd94)
