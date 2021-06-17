@@ -93,8 +93,6 @@
 <details>
 	<summary>Вопросы по производительности</summary>
 	1. <a href="answers/performance.md#tools-to-improve">Что можно сделать, чтобы улучшить производительность приложения?</a> <br/>
-	2. <a href="answers/performance.md#scroll-performance">Какие есть способы улучшения производительности скролла?</a> <br/>
-	3. <a href="answers/performance.md#difference">В чем разница между layout, painting и compositing?</a> <br/>
 </details>
 
 <details>
