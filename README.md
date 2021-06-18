@@ -93,6 +93,8 @@
 <details>
 	<summary>Вопросы по производительности</summary>
 	1. <a href="answers/performance.md#tools-to-improve">Что можно сделать, чтобы улучшить производительность приложения?</a> <br/>
+	2. <a href="answers/performance.md#on-push">Что такое ChangeDetectionStrategy.onPush?</a> <br/>
+	3. <a href="answers/performance.md#detach">Что такое отключение Change Detection?</a> <br/>
 </details>
 
 <details>
