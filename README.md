@@ -95,6 +95,13 @@
 	1. <a href="answers/performance.md#tools-to-improve">Что можно сделать, чтобы улучшить производительность приложения?</a> <br/>
 	2. <a href="answers/performance.md#on-push">Что такое ChangeDetectionStrategy.onPush?</a> <br/>
 	3. <a href="answers/performance.md#detach">Что такое отключение Change Detection?</a> <br/>
+	4. <a href="answers/performance.md#local">Что такое обнаружение локальных изменений (Local Change Detection)?</a> <br/>
+	5. <a href="answers/performance.md#ngzone">Что такое запуск вне Angular?</a> <br/>
+	6. <a href="answers/performance.md#track-by">Как работает `trackBy` для директивы `*ngFor`?</a> <br/>
+	7. <a href="answers/performance.md#optimize">Как оптимизировать выражения в шаблонах?</a> <br/>
+	8. <a href="answers/performance.md#web-worker">Как использовать Web Worker?</a> <br/>
+	9. <a href="answers/performance.md#lazy-load">Lazy Load.</a> <br/>
+	10. <a href="answers/performance.md#preload">Предварительная загрузка.</a>
 </details>
 
 <details>
