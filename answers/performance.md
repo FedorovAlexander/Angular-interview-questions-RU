@@ -165,3 +165,4 @@ const routes: Routes = [
 
 1. [https://dev-gang.ru/article/10-hitrostei-dlja-optimizacii-vashego-angular-prilozhenija-8fk5qyino3/](https://dev-gang.ru/article/10-hitrostei-dlja-optimizacii-vashego-angular-prilozhenija-8fk5qyino3/)
 2. [https://angdev.ru/doc/web-workers/](https://angdev.ru/doc/web-workers/)
+3. [https://web.dev/route-preloading-in-angular/](https://web.dev/route-preloading-in-angular/)
