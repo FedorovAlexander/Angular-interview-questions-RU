@@ -6,10 +6,9 @@
 4. Запуск вне Angular.
 5. Использование чистых пайпов.
 6. Использование опции `trackBy` для директивы `*ngFor`.
-7. Оптимизация выражений в шаблонах.
-8. Использование Web Worker.
-9. Lazy Load.
-10. Предварительная загрузка.
+7. Использование Web Worker.
+8. Lazy Load.
+9. Предварительная загрузка.
 
 <br/>
 
@@ -124,6 +123,12 @@ trackByItems(index: number, item: Item): number {
 ```
 
 <br/>
+
+## <a name="web-worker"></a>Что такое Web Worker-ы?
+
+Web Worker позволяет выполнять скрипта отдельным процессом в фоновом режиме. Web Worker-ы могут создавать другие Web Worker-ы и так далее. Общение между главным процессом и Web Worker-ами осуществляется с помощью сообщений.
+
+<br/>
 <br/>
 <br/>
 <br/>
@@ -133,3 +138,4 @@ trackByItems(index: number, item: Item): number {
 Источники:<br/>
 
 1. [https://dev-gang.ru/article/10-hitrostei-dlja-optimizacii-vashego-angular-prilozhenija-8fk5qyino3/](https://dev-gang.ru/article/10-hitrostei-dlja-optimizacii-vashego-angular-prilozhenija-8fk5qyino3/)
+2. [https://angdev.ru/doc/web-workers/](https://angdev.ru/doc/web-workers/)

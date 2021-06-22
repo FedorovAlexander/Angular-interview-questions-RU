@@ -98,10 +98,9 @@
 	4. <a href="answers/performance.md#local">Что такое обнаружение локальных изменений (Local Change Detection)?</a> <br/>
 	5. <a href="answers/performance.md#ngzone">Что такое запуск вне Angular?</a> <br/>
 	6. <a href="answers/performance.md#track-by">Как работает trackBy для директивы *ngFor?</a> <br/>
-	7. <a href="answers/performance.md#optimize">Как оптимизировать выражения в шаблонах?</a> <br/>
-	8. <a href="answers/performance.md#web-worker">Как использовать Web Worker?</a> <br/>
-	9. <a href="answers/performance.md#lazy-load">Lazy Load.</a> <br/>
-	10. <a href="answers/performance.md#preload">Предварительная загрузка.</a>
+	7. <a href="answers/performance.md#web-worker">Что такое Web Worker-ы?</a> <br/>
+	8. <a href="answers/performance.md#lazy-load">Lazy Load.</a> <br/>
+	9. <a href="answers/performance.md#preload">Предварительная загрузка.</a>
 </details>
 
 <details>
