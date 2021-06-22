@@ -53,6 +53,54 @@ clickHandler() {
 
 ## <a name="ngzone"></a>Что такое запуск вне Angular?
 
+Angular использует NgZone/Zone чтобы следить за асинхронными событиями, чтобы знать когда запускать change detection. Весь код приложения на Angular выполняется в зоне Angular, которая создается Zone.js. Zone.js слушает асинхронные события и сообщает их Angular.
+
+У Angular есть особенность, которая позволяет выполнять часть кода вне зоны Angular. В этом случае change detection не будет запущено и UI не будет обновлен.
+
+Это может быть полезно если у нас есть код, который меняет UI каждую секунду. Мы можем вывести обновление UI из зоны Angular, подождать пока нам снова нужно будет обновить UI и ввести обновление UI в зону.
+
+```typescript
+@Component({
+	...
+	template: `
+		<div>
+			{{data}}
+			{{done}}
+		</div>
+	`
+})
+class TestComponent {
+	data = 0
+	done
+
+	constructor(private ngZone: NgZone) {}
+
+	processInsideZone() {
+		if(data >= 100) {
+			done = "Done"
+		}
+		else {
+			data += 1
+		}
+	}
+
+	processOutsideZone() {
+		this.ngZone.runOutsideAngular(()=> {
+			if(data >= 100) {
+				this.ngZone.run(()=> {data = "Done"})
+			}
+			else {
+				data += 1
+			}
+		})
+	}
+}
+```
+
+processInsideZone выполняется в зоне Angular и UI обновляется по ходу выполнения.
+
+processOutsideZone выполняется вне ngZone и UI не будет обновляться. Когда data станет больше 100 и мы хотим показать "Done", мы возвращаемся в ngZone и показываем "Done".
+
 <br/>
 <br/>
 <br/>

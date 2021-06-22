@@ -83,9 +83,9 @@
 	3. <a href="answers/RxJs.md#how-to-cache">Как кэшировать данные из observable?</a> <br/>
 	4. <a href="answers/RxJs.md#order-api-calls">Как с помощью rxjs реализовать несколько запросов к api, которые должны идти друг за другом?</a> <br/>
 	5. <a href="answers/RxJs.md#switchMap-concatMap-mergeMap">В чем разница между switchMap, concatMap и mergeMap?</a> <br/>
-	6. <a href="answers/RxJs.md#scan-reduce">В чем разница между scan() и reduce()?</a>
-	7. <a href="answers/RxJs.md#subject">Что такое Subject?</a>
-	8. <a href="answers/RxJs.md#behavior-reply-async">В чем разница между BehaviorSubject, ReplySubject и AsyncSubject?</a>
+	6. <a href="answers/RxJs.md#scan-reduce">В чем разница между scan() и reduce()?</a> <br/>
+	7. <a href="answers/RxJs.md#subject">Что такое Subject?</a> <br/>
+	8. <a href="answers/RxJs.md#behavior-reply-async">В чем разница между BehaviorSubject, ReplySubject и AsyncSubject?</a> <br/>
 	9. <a href="answers/RxJs.md#higher-order">Что такое Observable высшего порядка (Higher-Order)?</a> <br/>
 	10. <a href="answers/RxJs.md#of-from">В чем разница между of и from?</a>
 </details>
