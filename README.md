@@ -99,8 +99,8 @@
 	5. <a href="answers/performance.md#ngzone">Что такое запуск вне Angular?</a> <br/>
 	6. <a href="answers/performance.md#track-by">Как работает trackBy для директивы *ngFor?</a> <br/>
 	7. <a href="answers/performance.md#web-worker">Что такое Web Worker-ы?</a> <br/>
-	8. <a href="answers/performance.md#lazy-load">Lazy Load.</a> <br/>
-	9. <a href="answers/performance.md#preload">Предварительная загрузка.</a>
+	8. <a href="answers/performance.md#lazy-load">Что такое Lazy Loading в Angular?</a> <br/>
+	9. <a href="answers/performance.md#preload">Что такое предварительная загрузка?</a>
 </details>
 
 <details>

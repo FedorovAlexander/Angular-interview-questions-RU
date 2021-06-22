@@ -129,6 +129,26 @@ trackByItems(index: number, item: Item): number {
 Web Worker позволяет выполнять скрипта отдельным процессом в фоновом режиме. Web Worker-ы могут создавать другие Web Worker-ы и так далее. Общение между главным процессом и Web Worker-ами осуществляется с помощью сообщений.
 
 <br/>
+
+## <a name="lazy-load"></a>Что такое Lazy Loading в Angular?
+
+По умолчанию все NgModule в тот момент, когда загружается приложение вне зависимости от того, нужны сейчас этим модули или нет. Для больших приложений необходимо использовать lazy loading чтобы модули загружались по мере необходимости. Lazy loading помогает уменьшить размер бандла, что уменьшит время загрузки приложения.
+
+```typescript
+const routes: Routes = [
+	{
+		path: "items",
+		loadChildren: () =>
+			import("./items/items.module").then((m) => m.ItemsModule),
+	},
+];
+```
+
+<br/>
+
+## <a name="lazy-load"></a>Что такое Lazy Loading в Angular?
+
+<br/>
 <br/>
 <br/>
 <br/>
