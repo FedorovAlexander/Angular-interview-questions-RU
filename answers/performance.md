@@ -146,7 +146,13 @@ const routes: Routes = [
 
 <br/>
 
-## <a name="lazy-load"></a>Что такое Lazy Loading в Angular?
+## <a name="preload"></a>Какие бывают стратегии предварительной загрузки?
+
+У Angular router есть свойство `preloadingStrategy`, которое определяет логику предзагрузки и выполняет ленивую загрузку Angular модулей.
+
+- `NoPreloading` - нет предзагрузки
+- `PreloadAllModules`, который предзагрузает все all lazy-loaded роуты
+- `QuicklinkStrategy`, который предзагружает только те роуты, ссылки на которые есть на текущей странице (необходимо установить библиотеку _ngx-quicklink_).
 
 <br/>
 <br/>
