@@ -105,7 +105,7 @@
 
 <details>
 	<summary>Вопросы по пайпам</summary>
-	1. <a href="answers/pipes.md#pure-pipe">Что такое пайп в Angular?</a> <br/>
+	1. <a href="answers/pipes.md#pipe">Что такое пайп в Angular?</a> <br/>
 	2. <a href="answers/pipes.md#async-pipe">Что такое async пайп?</a> <br/>
 	3. <a href="answers/pipes.md#kind-of-data-async">Какие данные могут быть использованы с async pipe?</a> <br/>
 	4. <a href="answers/pipes.md#how-to-create">Как сделать кастомный пайп?</a> <br/>
