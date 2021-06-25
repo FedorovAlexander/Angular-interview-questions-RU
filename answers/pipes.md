@@ -22,3 +22,14 @@ export class AppComponent {
 Без форматирования: Wed Apr 12 1961 00:00:00 GMT +0400 (GMT +04 00)
 
 С форматированием: Apr 12, 1961
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<hr/>
+
+Источники:<br/>
+
+1. [https://metanit.com/web/angular2/8.1.php](https://metanit.com/web/angular2/8.1.php)
