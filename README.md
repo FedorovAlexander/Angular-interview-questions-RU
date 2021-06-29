@@ -115,28 +115,27 @@
 
 <details>
 	<summary>Вопросы по роутеру</summary>
-	1. <a href="answers/router.md#for-root-for-child">What is the difference between RouterModule.forRoot() vs RouterModule.forChild()? Why is it important?</a> <br/>
-	2. <a href="answers/router.md#loadChildren">How does loadChildren property work?</a> <br/>
-	3. <a href="answers/router.md#when-to-use-routing-module">Do you need a Routing Module? Why/not?</a> <br/>
-	4. <a href="answers/router.md#when-lazy-loaded-is-loaded">When does a lazy loaded module is loaded?</a> <br/>
-	5. <a href="answers/router.md#activate-route-router-state">Can you explain the difference between ActivatedRoute and RouterState?</a> <br/>
-	6. <a href="answers/router.md#debug">How do you debug router?</a> <br/>
-	7. <a href="answers/router.md#route-guards">Why do we need route guards?</a> <br/>
-	8. <a href="answers/router.md#router-outlet">What is a RouterOutlet?</a>
+	1. <a href="answers/router.md#for-root-for-child">В чем разница между RouterModule.forRoot() и RouterModule.forChild()?</a> <br/>
+	2. <a href="answers/router.md#loadChildren">Как работает loadChildren?</a> <br/>
+	3. <a href="answers/router.md#when-to-use-routing-module">Когда нужен отдельный Routing Module?</a> <br/>
+	4. <a href="answers/router.md#when-lazy-loaded-is-loaded">В какой момент загружается lazy loaded module?</a> <br/>
+	5. <a href="answers/router.md#activate-route-router-state">В чем разница между ActivatedRoute и RouterState?</a> <br/>
+	6. <a href="answers/router.md#debug">Как дебажить роутер?</a> <br/>
+	7. <a href="answers/router.md#route-guards">Зачем нужны гарды роутов?</a> <br/>
+	8. <a href="answers/router.md#router-outlet">Что такое RouterOutlet?</a>
 </details>
 
 <details>
 	<summary>Вопросы по сервисам</summary>
-	1. <a href="answers/service.md#use-case">What is the use case of services?</a> <br/>
-	2. <a href="answers/service.md#injected">How are the services injected to your application?</a> <br/>
-	3. <a href="answers/service.md#unit-test">How do you unit test a service with a dependency?</a>
+	1. <a href="answers/service.md#use-case">Зачем нужны сервисы?</a> <br/>
+	2. <a href="answers/service.md#injected">Как сервисы инжектируются в приложение?</a> <br/>
+	3. <a href="answers/service.md#singleton">Что такое Singleton Service и с какой целью его используют в Angular?</a>
 </details>
 
 <details>
 	<summary>Вопросы по структурным директивам</summary>
-	1. <a href="answers/directives.md#what-is">What is a structural directive?</a> <br/>
-	2. <a href="answers/directives.md#html">How do you identify a structural directive in html?</a> <br/>
-	3. <a href="answers/directives.md#hide-remove">When creating your own structural directives, how would you decide on hiding or removing an element? What would be the advantages or disadvantages of choosing one method rather than the other?</a>
+	1. <a href="answers/directives.md#what-is">Что такое структурная директива?</a> <br/>
+	2. <a href="answers/directives.md#html">Как идентифицировать структурную директиву в шаблоне?</a>
 </details>
 
 <details>
@@ -151,13 +150,13 @@
 
 <details>
 	<summary>Вопросы по написанию кода (style guide)</summary>
-	1. <a href="answers/style-guide.md#suggestions">What are some of the Angular Style Guide suggestions you follow on your code? Why?</a> <br/>
-	2. <a href="answers/style-guide.md#importance">Is it important to have a style guide? Why/not?</a> <br/>
+	1. <a href="answers/style-guide.md#suggestions">Какие вы знаете Angular Style Guide рекомендации?</a> <br/>
+	2. <a href="answers/style-guide.md#importance">Почему важно следовать style guide?</a>
 </details>
 
 <details>
 	<summary>Вопросы по тестам</summary>
-	1. <a href="answers/tests.md#tests">What are some of the different tests types you can write?</a> <br/>
+	1. <a href="answers/tests.md#tests">Какие бывают виды тестирования?</a> <br/>
 	2. <a href="answers/tests.md#mock-a-service">How do you mock a service to inject in an integration test?</a> <br/>
 	3. <a href="answers/tests.md#mock-a-module">How do you mock a module in an integration test?</a> <br/>
 	4. <a href="answers/tests.md#test-a-component">How do you test a component that has a dependency to an async service?</a> <br/>
@@ -166,9 +165,9 @@
 
 <details>
 	<summary>Вопросы по TypeScript</summary>
-	1. <a href="answers/typescript.md#why-type">Why do you need type definitions?</a> <br/>
-	2. <a href="answers/typescript.md#custom-type">How would you define a custom type?</a> <br/>
-	3. <a href="answers/typescript.md#interface-class">What is the difference between an Interface and a Class?</a> <br/>
+	1. <a href="answers/typescript.md#why-type">Зачем нужна типизация?</a> <br/>
+	2. <a href="answers/typescript.md#custom-type">Как объявить кастомный тип?</a> <br/>
+	3. <a href="answers/typescript.md#interface-class">В чем разница между Interface и Class?</a> <br/>
 	4. <a href="answers/typescript.md#discriminated">What are Discriminated union types?</a> <br/>
 	5. <a href="answers/typescript.md#object-type">How do you define Object of Objects type in typescript?</a> <br/>
 	6. <a href="answers/typescript.md#capture">How can you capture the 'type' the user provides (e.g. number), so that we can use that information later.</a>
@@ -176,7 +175,7 @@
 
 <details>
 	<summary>Вопросы по JavaScript</summary>
-	1. <a href="answers/javascript.md#var-let-const">Explain the difference between var, let and const key words.</a> <br/>
+	1. <a href="answers/javascript.md#var-let-const">В чем разница между var, let и const?</a> <br/>
 	2. <a href="answers/javascript.md#garbage">Could you make sure a const value is garbage collected?</a> <br/>
 	3. <a href="answers/javascript.md#object-assign">Explain Object.assign and possible use cases.</a> <br/>
 	4. <a href="answers/javascript.md#object-freeze">Explain Object.freeze and possible use cases.</a> <br/>
