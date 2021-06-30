@@ -117,7 +117,7 @@
 	<summary>Вопросы по роутеру</summary>
 	1. <a href="answers/router.md#for-root-for-child">В чем разница между RouterModule.forRoot() и RouterModule.forChild()?</a> <br/>
 	2. <a href="answers/router.md#loadChildren">Как работает loadChildren?</a> <br/>
-	3. <a href="answers/router.md#when-to-use-routing-module">Когда нужен отдельный Routing Module?</a> <br/>
+	3. <a href="answers/router.md#when-to-use-routing-module">Нужен ли отдельный Routing Module?</a> <br/>
 	4. <a href="answers/router.md#when-lazy-loaded-is-loaded">В какой момент загружается lazy loaded module?</a> <br/>
 	5. <a href="answers/router.md#activate-route-router-state">В чем разница между ActivatedRoute и RouterState?</a> <br/>
 	6. <a href="answers/router.md#debug">Как дебажить роутер?</a> <br/>
