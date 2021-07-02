@@ -37,6 +37,14 @@ RouterModule объявляет и экспортирует директивы (
 При ленивой загрузке модуле загружаются по требованию в тот момент, когда пользователь перешел по ссылке на этот модуль в роутере.
 
 <br/>
+
+## <a name="activate-route-router-state"></a>В чем разница между ActivatedRoute и RouterState?
+
+`ActivatedRoute` — сервис, предоставляемый каждому компоненту маршрута, который содержит информацию о маршруте, такую ​​как параметры маршрута, статические данные, глобальные параметры запроса и глобальный фрагмент.
+
+`RouterState` — текущее состояние маршрутизатора, включая дерево активных маршрутов вместе с удобными методами обхода дерева маршрутов.
+
+<br/>
 <br/>
 <br/>
 <br/>
@@ -47,3 +55,4 @@ RouterModule объявляет и экспортирует директивы (
 
 1. [https://blog.bitsrc.io/boost-angulars-performance-by-lazy-loading-your-modules-ca7abd1e2304](https://blog.bitsrc.io/boost-angulars-performance-by-lazy-loading-your-modules-ca7abd1e2304)
 2. [https://angular.io/tutorial/toh-pt5](https://angular.io/tutorial/toh-pt5)
+3. [https://medium.com/fafnur/angular-docs-%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8-%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%D1%85-c7402c16ce26](https://medium.com/fafnur/angular-docs-%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8-%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%D1%85-c7402c16ce26)
