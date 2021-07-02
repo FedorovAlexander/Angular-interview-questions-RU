@@ -45,6 +45,18 @@ RouterModule объявляет и экспортирует директивы (
 `RouterState` — текущее состояние маршрутизатора, включая дерево активных маршрутов вместе с удобными методами обхода дерева маршрутов.
 
 <br/>
+
+## <a name="route-guards"></a>Зачем нужны гарды роутов?
+
+Гарды позволяют ограничить навигацию по определенным маршрутам. Например если для доступа к определенному ресурсу требуется, наличие аутентификации или наличие каких-то других условий, в зависимости от которых мы можем предоставить пользователю доступ, а можем и не предоставить.
+
+<br/>
+
+## <a name="router-outlet"></a>Что такое RouterOutlet?
+
+Router-outlet в Angular работает как плейсхолдер для динамической загрузки компонентов в соответствии с текущим роутом. При навигации контент компонента будет вставлен внутри `<router-outlet></router-outlet>`.
+
+<br/>
 <br/>
 <br/>
 <br/>
@@ -55,4 +67,6 @@ RouterModule объявляет и экспортирует директивы (
 
 1. [https://blog.bitsrc.io/boost-angulars-performance-by-lazy-loading-your-modules-ca7abd1e2304](https://blog.bitsrc.io/boost-angulars-performance-by-lazy-loading-your-modules-ca7abd1e2304)
 2. [https://angular.io/tutorial/toh-pt5](https://angular.io/tutorial/toh-pt5)
-3. [https://medium.com/fafnur/angular-docs-%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8-%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%D1%85-c7402c16ce26](https://medium.com/fafnur/angular-docs-%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8-%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%D1%85-c7402c16ce26)
+3. [https://metanit.com/web/angular2/7.7.php](https://metanit.com/web/angular2/7.7.php)
+4. [Маршрутизации в Angular](https://medium.com/fafnur/angular-docs-%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8-%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%D1%85-c7402c16ce26)
+5. [https://www.c-sharpcorner.com/blogs/routeroutlet-in-angular#:~:text=Router%2Doutlet%20in%20Angular%20works,outlet%20to%20load%20its%20content.](https://www.c-sharpcorner.com/blogs/routeroutlet-in-angular#:~:text=Router%2Doutlet%20in%20Angular%20works,outlet%20to%20load%20its%20content.)
