@@ -25,3 +25,9 @@ export class MessageService {
 	constructor(private errorService: ErrorService) {}
 }
 ```
+
+<br/>
+
+## <a name="singleton"></a>Что такое Singleton Service?
+
+Singleton service - это сервис у которого только одни экземпляр на всё приложение.
