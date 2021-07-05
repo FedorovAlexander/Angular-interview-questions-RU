@@ -127,7 +127,7 @@
 <details>
 	<summary>Вопросы по сервисам</summary>
 	1. <a href="answers/service.md#use-case">Зачем нужны сервисы?</a> <br/>
-	2. <a href="answers/service.md#injected">Как сервисы инжектируются в приложение?</a> <br/>
+	2. <a href="answers/service.md#injected">Как сервисы внедряются в приложение?</a> <br/>
 	3. <a href="answers/service.md#singleton">Что такое Singleton Service и с какой целью его используют в Angular?</a>
 </details>
 
