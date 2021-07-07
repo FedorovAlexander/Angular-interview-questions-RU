@@ -139,7 +139,7 @@
 
 <details>
 	<summary>Вопросы по стилям</summary>
-	1. <a href="answers/styles.md#select-custom-element">How would you select a custom component to style it.</a> <br/>
+	1. <a href="answers/styles.md#select-custom-element">Как стилизовать кастомный компонент?</a> <br/>
 	2. <a href="answers/styles.md#targets-host">What pseudo-class selector targets styles in the element that hosts the component?</a> <br/>
 	3. <a href="answers/styles.md#all-child">How would you select all the child components' elements?</a> <br/>
 	4. <a href="answers/styles.md#select-class-any-ancestor">How would you select a css class in any ancestor of the component host element, all the way up to the document root?</a> <br/>
