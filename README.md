@@ -141,7 +141,7 @@
 	<summary>Вопросы по стилям</summary>
 	1. <a href="answers/styles.md#select-custom-element">Как стилизовать кастомный компонент?</a> <br/>
 	2. <a href="answers/styles.md#targets-host">Какой псевдокласс нужно использовать, чтобы стилизовать элемент, в котором находится компонент?</a> <br/>
-	3. <a href="answers/styles.md#all-child">How would you select all the child components' elements?</a> <br/>
+	3. <a href="answers/styles.md#all-child">Как выбрать все дочерние компоненты элемента?</a> <br/>
 	4. <a href="answers/styles.md#select-class-any-ancestor">How would you select a css class in any ancestor of the component host element, all the way up to the document root?</a> <br/>
 	5. <a href="answers/styles.md#all-mighty-class">What selector force a style down through the child component tree into all the child component views?</a> <br/>
 	6. <a href="answers/styles.md#host-context">What does :host-context() pseudo-class selector targets?</a>
