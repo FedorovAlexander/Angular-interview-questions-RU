@@ -117,10 +117,8 @@ export class AppComponent {}
 <hr/>
 
 Источники: <br/>
-[https://angular.io/guide/template-reference-variables](https://angular.io/guide/template-reference-variables)
-<br/>
-[https://habr.com/ru/post/491136/](https://habr.com/ru/post/491136/)
-<br/>
-[https://codeburst.io/angular-interview-question-what-are-ng-container-ng-content-and-ng-template-9fafbbc255d5](https://codeburst.io/angular-interview-question-what-are-ng-container-ng-content-and-ng-template-9fafbbc255d5)
-<br/>
-[https://www.freecodecamp.org/news/data-binding-in-angular-explained/#:~:text=Angular%20will%20hardly%20ever%20bind,data%20to%20properties%2C%20not%20attributes!](https://www.freecodecamp.org/news/data-binding-in-angular-explained/#:~:text=Angular%20will%20hardly%20ever%20bind,data%20to%20properties%2C%20not%20attributes!)
+
+1. [https://angular.io/guide/template-reference-variables](https://angular.io/guide/template-reference-variables)
+2. [https://habr.com/ru/post/491136/](https://habr.com/ru/post/491136/)
+3. [https://codeburst.io/angular-interview-question-what-are-ng-container-ng-content-and-ng-template-9fafbbc255d5](https://codeburst.io/angular-interview-question-what-are-ng-container-ng-content-and-ng-template-9fafbbc255d5)
+4. [https://www.freecodecamp.org/news/data-binding-in-angular-explained/#:~:text=Angular%20will%20hardly%20ever%20bind,data%20to%20properties%2C%20not%20attributes!](https://www.freecodecamp.org/news/data-binding-in-angular-explained/#:~:text=Angular%20will%20hardly%20ever%20bind,data%20to%20properties%2C%20not%20attributes!)

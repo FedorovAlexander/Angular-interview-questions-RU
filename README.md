@@ -158,9 +158,7 @@
 
 <details>
 	<summary>Вопросы по TypeScript</summary>
-	1. <a href="answers/typescript.md#why-type">Зачем нужна типизация?</a> <br/>
-	2. <a href="answers/typescript.md#custom-type">Как объявить кастомный тип?</a> <br/>
-	3. <a href="answers/typescript.md#interface-class">В чем разница между Interface и Class?</a> <br/>
-	4. <a href="answers/typescript.md#discriminated">What are Discriminated union types?</a> <br/>
-	5. <a href="answers/typescript.md#object-type">How do you define Object of Objects type in typescript?</a> 
+	1. <a href="answers/typescript.md#custom-type">Как объявить кастомный тип?</a> <br/>
+	2. <a href="answers/typescript.md#interface-class">В чем разница между Interface и Class?</a> <br/>
+	3. <a href="answers/typescript.md#discriminated">Что такое Discriminated union?</a> <br/> 
 </details>
