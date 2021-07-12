@@ -143,8 +143,6 @@
 	2. <a href="answers/styles.md#targets-host">Какой псевдокласс нужно использовать, чтобы стилизовать элемент, в котором находится компонент?</a> <br/>
 	3. <a href="answers/styles.md#all-child">Как выбрать все дочерние компоненты элемента?</a> <br/>
 	4. <a href="answers/styles.md#select-class-any-ancestor">Как выбрать класс в любом родителе компонента (вплоть до корневого элемента)?</a> <br/>
-	5. <a href="answers/styles.md#all-mighty-class">What selector force a style down through the child component tree into all the child component views?</a> <br/>
-	6. <a href="answers/styles.md#host-context">What does :host-context() pseudo-class selector targets?</a>
 </details>
 
 <details>
@@ -170,13 +168,4 @@
 	4. <a href="answers/typescript.md#discriminated">What are Discriminated union types?</a> <br/>
 	5. <a href="answers/typescript.md#object-type">How do you define Object of Objects type in typescript?</a> <br/>
 	6. <a href="answers/typescript.md#capture">How can you capture the 'type' the user provides (e.g. number), so that we can use that information later.</a>
-</details>
-
-<details>
-	<summary>Вопросы по JavaScript</summary>
-	1. <a href="answers/javascript.md#var-let-const">В чем разница между var, let и const?</a> <br/>
-	2. <a href="answers/javascript.md#garbage">Could you make sure a const value is garbage collected?</a> <br/>
-	3. <a href="answers/javascript.md#object-assign">Explain Object.assign and possible use cases.</a> <br/>
-	4. <a href="answers/javascript.md#object-freeze">Explain Object.freeze and possible use cases.</a> <br/>
-	5. <a href="answers/javascript.md#destruct-assignment">What is destructuring assignment?</a>
 </details>
