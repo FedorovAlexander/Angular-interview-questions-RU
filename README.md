@@ -154,10 +154,6 @@
 <details>
 	<summary>Вопросы по тестам</summary>
 	1. <a href="answers/tests.md#tests">Какие бывают виды тестирования?</a> <br/>
-	2. <a href="answers/tests.md#mock-a-service">How do you mock a service to inject in an integration test?</a> <br/>
-	3. <a href="answers/tests.md#mock-a-module">How do you mock a module in an integration test?</a> <br/>
-	4. <a href="answers/tests.md#test-a-component">How do you test a component that has a dependency to an async service?</a> <br/>
-	5. <a href="answers/tests.md#async-fake-async">What is the difference between 'async()' and 'fakeAsync()'?</a>
 </details>
 
 <details>
@@ -166,6 +162,5 @@
 	2. <a href="answers/typescript.md#custom-type">Как объявить кастомный тип?</a> <br/>
 	3. <a href="answers/typescript.md#interface-class">В чем разница между Interface и Class?</a> <br/>
 	4. <a href="answers/typescript.md#discriminated">What are Discriminated union types?</a> <br/>
-	5. <a href="answers/typescript.md#object-type">How do you define Object of Objects type in typescript?</a> <br/>
-	6. <a href="answers/typescript.md#capture">How can you capture the 'type' the user provides (e.g. number), so that we can use that information later.</a>
+	5. <a href="answers/typescript.md#object-type">How do you define Object of Objects type in typescript?</a> 
 </details>
