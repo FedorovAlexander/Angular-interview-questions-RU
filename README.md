@@ -23,6 +23,7 @@
 	3. <a href="answers/API.md#ngzone-service">Можете привести хороший пример использования NgZone сервиса?</a> <br/>
 	4. <a href="answers/API.md#component-protection">Как защитить компонент от активации через роутер?</a> <br/>
 	5. <a href="answers/API.md#difference">В чем разница между @ViewChild() и @ContentChild()?</a>
+	6. <a href="answers/API.md#di">Что такое Dependency Injection?</a>
 </details>
 
 <details>

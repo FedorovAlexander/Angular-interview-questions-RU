@@ -64,6 +64,12 @@ export class someComponent implements OnInit {
   - К `TemplateRef` (т.е. `@ViewChild(TemplateRef) template`)
 
 <br/>
+
+## <a name="di"></a>Что такое Dependency Injection?
+
+Внедрение зависимостей или Dependency Injection - это шаблон проектирования, в котором класс запрашивает зависимости из внешних источников, а не создает их.
+
+<br/>
 <br/>
 <br/>
 <br/>
