@@ -44,6 +44,7 @@
 	3. <a href="answers/components.md#communication">Как происходит взаимодействие компонентов?</a> <br/>
 	4. <a href="answers/components.md#two-way">Как сделать двухстороннее связывание данных?</a> <br/>
 	5. <a href="answers/components.md#errors">Как бы вы сделали компонент для показа сообщений об ошибках?</a> <br/>
+	6. <a href="answers/components.md#hooks">Что такое Lifecycle Hooks?</a> <br/>
 </details>
 
 <details>
