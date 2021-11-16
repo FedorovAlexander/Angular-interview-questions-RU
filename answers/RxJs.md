@@ -182,6 +182,36 @@ of(...fruits).subscribe(console.log); //  'orange','apple','banana'
 ```
 
 <br/>
+
+## <a name="multicasting"></a>Что такое multicasting?
+
+Мультикастинг - рассылка данных списку из нескольких подписчиков, которая происходит за одно выполнение.
+
+Например:
+
+```typescript
+import { Subject } from "rxjs";
+
+const subject = new Subject<number>();
+
+subject.subscribe({
+	next: (v) => console.log(`observerA: ${v}`),
+});
+subject.subscribe({
+	next: (v) => console.log(`observerB: ${v}`),
+});
+
+subject.next(1);
+subject.next(2);
+
+// Logs:
+// observerA: 1
+// observerB: 1
+// observerA: 2
+// observerB: 2
+```
+
+<br/>
 <br/>
 <br/>
 <br/>
