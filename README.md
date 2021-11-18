@@ -24,7 +24,8 @@
 	4. <a href="answers/API.md#component-protection">Как защитить компонент от активации через роутер?</a> <br/>
 	5. <a href="answers/API.md#difference">В чем разница между @ViewChild() и @ContentChild()?</a>
 	6. <a href="answers/API.md#di">Что такое Dependency Injection?</a>
-	6. <a href="answers/API.md#constr-ngOnInit">В чем разница между constructor и ngOnInit?</a>
+	7. <a href="answers/API.md#constr-ngOnInit">В чем разница между constructor и ngOnInit?</a>
+	8. <a href="answers/API.md#service-worker">Что такое service-worker и его роль в Angular?</a>
 </details>
 
 <details>
