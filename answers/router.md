@@ -57,6 +57,18 @@ RouterModule объявляет и экспортирует директивы (
 Router-outlet в Angular работает как плейсхолдер для динамической загрузки компонентов в соответствии с текущим роутом. При навигации контент компонента будет вставлен внутри `<router-outlet></router-outlet>`.
 
 <br/>
+
+## <a name="canActivateEtc"></a>Что такое CanActivate, CanActivateChild, CanDeactivate и CanLoad?
+
+**CanActivate** - разрешает/запрещает доступ к маршруту;
+
+**CanActivateChild** - разрешает/запрещает доступ к дочернему маршруту;
+
+**CanDeactivate** - разрешает/запрещает уход с текущего маршрута;
+
+**CanLoad** - разрешает/запрещает загрузку модуля, загружаемого асинхронно.
+
+<br/>
 <br/>
 <br/>
 <br/>
@@ -70,3 +82,4 @@ Router-outlet в Angular работает как плейсхолдер для �
 3. [https://metanit.com/web/angular2/7.7.php](https://metanit.com/web/angular2/7.7.php)
 4. [Маршрутизация в Angular](https://medium.com/fafnur/angular-docs-%D0%BD%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8-%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%D1%85-c7402c16ce26)
 5. [https://www.c-sharpcorner.com/blogs/routeroutlet-in-angular#:~:text=Router%2Doutlet%20in%20Angular%20works,outlet%20to%20load%20its%20content.](https://www.c-sharpcorner.com/blogs/routeroutlet-in-angular#:~:text=Router%2Doutlet%20in%20Angular%20works,outlet%20to%20load%20its%20content.)
+6. [https://angdev.ru/doc/angular-routing-guards/](https://angdev.ru/doc/angular-routing-guards/)

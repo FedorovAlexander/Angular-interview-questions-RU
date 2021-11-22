@@ -127,6 +127,7 @@
 	5. <a href="answers/router.md#activate-route-router-state">В чем разница между ActivatedRoute и RouterState?</a> <br/>
 	6. <a href="answers/router.md#route-guards">Зачем нужны гарды роутов?</a> <br/>
 	7. <a href="answers/router.md#router-outlet">Что такое RouterOutlet?</a>
+	8. <a href="answers/router.md#canActivateEtc">Что такое CanActivate, CanActivateChild, CanDeactivate и CanLoad?</a>
 </details>
 
 <details>
