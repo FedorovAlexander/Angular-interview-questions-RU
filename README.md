@@ -93,6 +93,7 @@
 	9. <a href="answers/RxJs.md#higher-order">Что такое Observable высшего порядка (Higher-Order)?</a> <br/>
 	10. <a href="answers/RxJs.md#of-from">В чем разница между of и from?</a>
 	11. <a href="answers/RxJs.md#multicasting">Что такое multicasting?</a>
+	12. <a href="answers/RxJs.md#stream">Что такое поток (stream) в RxJS?</a>
 </details>
 
 <details>
