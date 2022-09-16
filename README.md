@@ -22,9 +22,9 @@
 	2. <a href="answers/API.md#size">Как изменить размер элемента при изменении ширины окна?</a> <br/>
 	3. <a href="answers/API.md#ngzone-service">Можете привести хороший пример использования NgZone сервиса?</a> <br/>
 	4. <a href="answers/API.md#component-protection">Как защитить компонент от активации через роутер?</a> <br/>
-	5. <a href="answers/API.md#difference">В чем разница между @ViewChild() и @ContentChild()?</a>
-	6. <a href="answers/API.md#di">Что такое Dependency Injection?</a>
-	7. <a href="answers/API.md#constr-ngOnInit">В чем разница между constructor и ngOnInit?</a>
+	5. <a href="answers/API.md#difference">В чем разница между @ViewChild() и @ContentChild()?</a> <br/>
+	6. <a href="answers/API.md#di">Что такое Dependency Injection?</a> <br/>
+	7. <a href="answers/API.md#constr-ngOnInit">В чем разница между constructor и ngOnInit?</a> <br/>
 	8. <a href="answers/API.md#service-worker">Что такое service-worker и его роль в Angular?</a>
 </details>
 
