@@ -163,6 +163,7 @@
 <details>
 	<summary>Вопросы по тестам</summary>
 	1. <a href="answers/tests.md#tests">Какие бывают виды тестирования?</a> <br/>
+	2. <a href="answers/tests.md#coverage">Что такое code coverage?</a> <br/>
 </details>
 
 <details>
