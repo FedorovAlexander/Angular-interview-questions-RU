@@ -171,4 +171,5 @@
 	1. <a href="answers/typescript.md#custom-type">Как объявить кастомный тип?</a> <br/>
 	2. <a href="answers/typescript.md#interface-class">В чем разница между Interface и Class?</a> <br/>
 	3. <a href="answers/typescript.md#discriminated">Что такое Discriminated union?</a> <br/> 
+	4. <a href="answers/typescript.md#generics">Что такое дженерики в TypeScript?</a> <br/>
 </details>

@@ -43,6 +43,19 @@ type Coffee = HouseCoffee | Latte | Cappuccino;
 ```
 
 Тип `Coffee` - пример discriminated union.
+<br/>
+
+## <a name="generics"></a>Что такое дженерики в TypeScript?
+
+Generics - это инструмент, который позволяет создавать компоненты, которые можно переиспользовать. Он создает компонент, который может работать с различными типами данных. Это позволяет пользователям использовать свои собственные типы. Generics гарантируют, что программа масштабируемой в долгосрочной перспективе.
+
+```typescript
+function identity<T>(arg: T): T {
+	return arg;
+}
+let output1 = identity<string>("myString");
+let output2 = identity<number>(100);
+```
 
 <br/>
 <br/>
