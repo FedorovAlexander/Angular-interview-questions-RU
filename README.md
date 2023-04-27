@@ -143,7 +143,8 @@
 <details>
 	<summary>Вопросы по структурным директивам</summary>
 	1. <a href="answers/directives.md#what-is">Что такое структурная директива?</a> <br/>
-	2. <a href="answers/directives.md#html">Как идентифицировать структурную директиву в шаблоне?</a>
+	2. <a href="answers/directives.md#html">Как идентифицировать структурную директиву в шаблоне?</a> <br/>
+	3. <a href="answers/directives.md#directives-on-same-element">Можно ли использовать ngFor и ngIf на одном и том же элементе?</a>
 </details>
 
 <details>
