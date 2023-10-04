@@ -25,7 +25,8 @@
 	5. <a href="answers/API.md#difference">В чем разница между @ViewChild() и @ContentChild()?</a> <br/>
 	6. <a href="answers/API.md#di">Что такое Dependency Injection?</a> <br/>
 	7. <a href="answers/API.md#constr-ngOnInit">В чем разница между constructor и ngOnInit?</a> <br/>
-	8. <a href="answers/API.md#service-worker">Что такое service-worker и его роль в Angular?</a>
+	8. <a href="answers/API.md#service-worker">Что такое service-worker и его роль в Angular?</a> <br/>
+	9. <a href="answers/API.md#zonejs">Что такое зона в zone.js?</a>
 </details>
 
 <details>
