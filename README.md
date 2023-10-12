@@ -48,6 +48,7 @@
 	5. <a href="answers/components.md#errors">Как бы вы сделали компонент для показа сообщений об ошибках?</a> <br/>
 	6. <a href="answers/components.md#hooks">Что такое Lifecycle Hooks?</a> <br/>
 	7. <a href="answers/components.md#encapsulation">Что такое View Encapsulation?</a> <br/>
+	8. <a href="answers/components.md#dynamic-components">Что такое динамические компоненты?</a>
 </details>
 
 <details>

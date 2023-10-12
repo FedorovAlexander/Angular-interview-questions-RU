@@ -98,3 +98,40 @@ View Encapsulation определяет, могут ли CSS и HTML, опред
 компоненте ограничены только этим компонентом.
 
 **None** - стили из компонента распространяются обратно на основной HTML и, следовательно, видны всем компонентам на странице.
+
+<br/>
+
+## <a name="dynamic-components"></a>Что такое динамические компоненты?
+
+Динамические компоненты - это компоненты, которые создаются и уничтожаются во время выполнения. Они могут быть созданы с помощью `ViewContainerRef.createComponent()`.
+
+```typescript
+import {
+	Component,
+	ViewChild,
+	ViewContainerRef,
+	ComponentFactoryResolver,
+} from "@angular/core";
+
+@Component({
+	selector: "app-root",
+	template: `
+		<div #container></div>
+		<button (click)="createComponent()">Create</button>
+	`,
+})
+export class AppComponent {
+	@ViewChild("container", { read: ViewContainerRef })
+	container: ViewContainerRef;
+
+	constructor(private resolver: ComponentFactoryResolver) {}
+
+	createComponent() {
+		this.container.createComponent(
+			this.resolver.resolveComponentFactory(ChildComponent)
+		);
+	}
+}
+```
+
+<br/>
