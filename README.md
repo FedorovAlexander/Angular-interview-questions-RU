@@ -13,7 +13,11 @@
 	1. <a href="answers/architecture.md#ngrx-store">Приведите хороший пример когда нужно использовать ngrx/store?</a> <br/>
 	2. <a href="answers/architecture.md#race-condition">Что такое "race condition" и какие баги могут быть связаны с этим? Как с ними справиться?</a> <br/>
 	3. <a href="answers/architecture.md#smart-dumb">Разница между умным и презентационным компонентом? Приведите пример использования? Назовите преимущества?</a> <br/>
-	4. <a href="answers/architecture.md#shared">Что такое Shared модуль?</a>
+	4. <a href="answers/architecture.md#shared">Что такое Shared модуль?</a> <br/>
+	5. <a href="answers/architecture.md#signals-vs-ngrx">Когда стоит строить архитектуру состояния приложения на Angular Signals, а когда лучше использовать NgRx/RxJS?</a> <br/>
+	6. <a href="answers/architecture.md#signals-architecture">Как спроектировать слои приложения при использовании Signals для состояния?</a> <br/>
+	7. <a href="answers/architecture.md#signals-migration">Как мигрировать существующее приложение с @Input/@Output и RxJS к Signals, не переписывая всё сразу?</a> <br/>
+	8. <a href="answers/architecture.md#signals-antipatterns">Какие анти‑паттерны при использовании Signals вы бы выделили?</a>
 </details>
 
 <details>
@@ -26,7 +30,11 @@
 	6. <a href="answers/API.md#di">Что такое Dependency Injection?</a> <br/>
 	7. <a href="answers/API.md#constr-ngOnInit">В чем разница между constructor и ngOnInit?</a> <br/>
 	8. <a href="answers/API.md#service-worker">Что такое service-worker и его роль в Angular?</a> <br/>
-	9. <a href="answers/API.md#zonejs">Что такое зона в zone.js?</a>
+	9. <a href="answers/API.md#zonejs">Что такое зона в zone.js?</a> <br/>
+	10. <a href="answers/API.md#signals-intro">Что такое Angular Signals и какие основные типы сигналов существуют?</a> <br/>
+	11. <a href="answers/API.md#signals-input-output">Как использовать signals в компоненте вместо @Input / @Output?</a> <br/>
+	12. <a href="answers/API.md#signals-template">Как сигналы используются в шаблоне и чем их чтение отличается от Observable?</a> <br/>
+	13. <a href="answers/API.md#signals-vs-observables">В чем разница между сигналами и Observable с точки зрения change detection и производительности?</a>
 </details>
 
 <details>
@@ -37,6 +45,8 @@
 	4. <a href="answers/template.md#ng-diff">В чем различия ng-content, ng-container и ng-template?</a> <br/>
 	5. <a href="answers/template.md#data-bind">Когда мы байндим данные в шаблоне, мы работаем с атрибутами или с свойствами (property)?</a> <br/>
 	6. <a href="answers/template.md#brackets-omit">Когда можно не использовать скобки при байндинге в шаблоне?</a> <br/>
+	7. <a href="answers/template.md#new-if-syntax">Как работает new if syntax?</a>
+
 </details>
 
 <details>
@@ -49,6 +59,7 @@
 	6. <a href="answers/components.md#hooks">Что такое Lifecycle Hooks?</a> <br/>
 	7. <a href="answers/components.md#encapsulation">Что такое View Encapsulation?</a> <br/>
 	8. <a href="answers/components.md#dynamic-components">Что такое динамические компоненты?</a>
+	9. <a href="answers/components.md#standalone">Что такое standalone компоненты?</a>
 </details>
 
 <details>
@@ -57,6 +68,7 @@
 	2. <a href="answers/interactions-and-state.md#child-parent">Как передать данные из дочернего компонента в родительский?</a> <br/>
 	3. <a href="answers/interactions-and-state.md#event-emit">Какие компоненты будут оповещены о том, что был emit события?</a> <br/>
 	4. <a href="answers/interactions-and-state.md#cached-data">Как кэшировать данные в Angular?</a>
+
 </details>
 
 <details>
@@ -97,7 +109,9 @@
 	10. <a href="answers/RxJs.md#of-from">В чем разница между of и from?</a> <br/>
 	11. <a href="answers/RxJs.md#multicasting">Что такое multicasting?</a> <br/>
 	12. <a href="answers/RxJs.md#stream">Что такое поток (stream) в RxJS?</a> <br/>
-	13. <a href="answers/RxJs.md#fork-join-combine-latest">В чем разница между операторами combineLatest и forkJoin?</a>
+	13. <a href="answers/RxJs.md#fork-join-combine-latest">В чем разница между операторами combineLatest и forkJoin?</a> <br/>
+	14. <a href="answers/RxJs.md#error-handling">Как обрабатывать ошибки в RxJS?</a><br/>
+	15. <a href="answers/RxJs.md#zip">Как использовать оператор zip?</a><br/>
 </details>
 
 <details>
@@ -111,7 +125,9 @@
 	7. <a href="answers/performance.md#track-by">Как работает trackBy для директивы *ngFor?</a> <br/>
 	8. <a href="answers/performance.md#web-worker">Что такое Web Worker-ы?</a> <br/>
 	9. <a href="answers/performance.md#lazy-load">Что такое Lazy Loading в Angular?</a> <br/>
-	10. <a href="answers/performance.md#preload">Какие бывают стратегии предварительной загрузки?</a>
+	10. <a href="answers/performance.md#preload">Какие бывают стратегии предварительной загрузки?</a> <br/>
+	11. <a href="answers/performance.md#zonejs">Что такое зона в zone.js?</a>
+
 </details>
 
 <details>
@@ -140,8 +156,10 @@
 	<summary>Вопросы по сервисам</summary>
 	1. <a href="answers/service.md#use-case">Зачем нужны сервисы?</a> <br/>
 	2. <a href="answers/service.md#injected">Как сервисы внедряются в приложение?</a> <br/>
-	3. <a href="answers/service.md#singleton">Что такое Singleton Service?</a><br/>
- 4. <a href="answers/service.md#service-lifecycle">Какой жизненный цикл у сервиса в Angular</a><br/>
+	3. <a href="answers/service.md#singleton">Что такое Singleton Service?</a><br/>	
+	4. <a href="answers/service.md#service-lifecycle">Какой жизненный цикл у сервиса в Angular?</a><br/>
+	5. <a href="answers/service.md#providers">Как зарегистрировать сервис в providers?</a> <br/>
+	6. <a href="answers/service.md#use-in-component">Как использовать сервис в компоненте?</a>
 </details>
 
 <details>
@@ -169,7 +187,7 @@
 	<summary>Вопросы по тестам</summary>
 	1. <a href="answers/tests.md#tests">Какие бывают виды тестирования?</a> <br/>
 	2. <a href="answers/tests.md#coverage">Что такое code coverage?</a> <br/>
-	3. <a href="answers/spy">Что такое spy object?</a>
+	3. <a href="answers/spy">Что такое spy object? </a>
 </details>
 
 <details>
@@ -178,4 +196,5 @@
 	2. <a href="answers/typescript.md#interface-class">В чем разница между Interface и Class?</a> <br/>
 	3. <a href="answers/typescript.md#discriminated">Что такое Discriminated union?</a> <br/> 
 	4. <a href="answers/typescript.md#generics">Что такое дженерики в TypeScript?</a> <br/>
+	5. <a href="answers/typescript.md#decorators">Что такое декораторы в TypeScript?</a> <br/>
 </details>

@@ -58,9 +58,16 @@ let output2 = identity<number>(100);
 ```
 
 <br/>
-<br/>
-<br/>
-<br/>
+
+## <a name="decorators"></a>Что такое декораторы в TypeScript?
+
+Декораторы - это функции, которые принимают класс и возвращают класс. Они используются для добавления дополнительной функциональности к классу.
+
+```typescript
+function log(target: any, propertyKey: string, descriptor: PropertyDescriptor) {
+	console.log(target, propertyKey, descriptor);
+}
+
 
 <hr/>
 
@@ -69,3 +76,4 @@ let output2 = identity<number>(100);
 1. [https://metanit.com/web/typescript/3.1.php](https://metanit.com/web/typescript/3.1.php)
 2. [https://www.typescriptlang.org/docs/handbook/2/classes.html](https://www.typescriptlang.org/docs/handbook/2/classes.html)
 3. [https://www.fullstory.com/blog/discriminated-unions-and-exhaustiveness-checking-in-typescript](https://www.fullstory.com/blog/discriminated-unions-and-exhaustiveness-checking-in-typescript)
+```

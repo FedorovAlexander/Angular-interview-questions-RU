@@ -225,6 +225,32 @@ subject.next(2);
 `combineLatest` - возвращает массив значений, как только один из Observable завершится.
 
 <br/>
+
+## <a name="error-handling"></a>Как обрабатывать ошибки в RxJS?
+
+Для обработки ошибок в RxJS можно использовать оператор `catchError`.
+
+```typescript
+obs.pipe(
+	catchError((error) => {
+		console.log(error);
+		return EMPTY;
+	}),
+);
+```
+
+<br/>
+
+## <a name="zip"></a>Как использовать оператор zip?
+
+Оператор `zip` объединяет несколько Observable в один, возвращая массив значений. Когда все Observable завершатся, zip вернет массив значений. Отличие от `forkJoin` в том, что `zip` будет ждать, пока все Observable завершатся, а `forkJoin` будет ждать, пока один из Observable завершится.
+
+```typescript
+obs.pipe(zip(obs2, obs3)).subscribe(([value1, value2, value3]) => {
+	console.log(value1, value2, value3);
+});
+```
+
 <br/>
 <br/>
 <br/>

@@ -128,10 +128,16 @@ export class AppComponent {
 
 	createComponent() {
 		this.container.createComponent(
-			this.resolver.resolveComponentFactory(ChildComponent)
+			this.resolver.resolveComponentFactory(ChildComponent),
 		);
 	}
 }
 ```
+
+<br/>
+
+## <a name="standalone"></a>Что такое standalone компоненты?
+
+Standalone компоненты -Standalone компоненты в Angular (v14+) — это автономные, модульные строительные блоки, которым не требуется NgModule для объявления. При установке `standalone: true` в декораторе `@Component` (что по умолчанию в последних версиях Angular) компонент самостоятельно управляет своими зависимостями через массив `imports`, уменьшая шаблонный код, упрощая поддержку и обеспечивая более эффективное tree-shaking и ленивую загрузку.
 
 <br/>
